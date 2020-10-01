@@ -7,7 +7,7 @@ function Header() {
             <section className="w3l-bootstrap-header">
             <nav className="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
                 <div className="container">
-                <a className="navbar-brand" href="/"><span className="fa fa-pencil-square-o "></span> <img src="./assets/images/logo.jpg" height="50px"  width="150px" /></a>
+                <a className="navbar-brand" href="/"><span className="fa fa-pencil-square-o "></span> <img src="./assets/images/Logo.jpg" height="50px"  width="150px" /></a>
                 {/* <!-- if logo is image enable this   
                 <a className="navbar-brand" href="#index.html">
                     <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
