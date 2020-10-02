@@ -31,11 +31,11 @@ function Footer() {
               <div className="footer-list-29 footer-2">
                   <ul>
                       <h6 className="footer-title-29">Featured Links</h6>
-                      <li><a href="contact.html">Career</a></li>
-                      <li><a href="contact.html">Speciality </a></li>
-                      <li><a href="contact.html">Privacy-Policy</a></li>
-                      <li><a href="contact.html">Refund-Policy</a></li>
-                      <li><a href="contact.html">Terms&Conditions</a></li>
+                      <li><a href="https://www.techpledgeconsulting.com/career">Career</a></li>
+                      <li><a href="https://www.techpledgeconsulting.com/cloud-master-program">Speciality </a></li>
+                      <li><a href="https://www.techpledgeconsulting.com/privacy-policy">Privacy-Policy</a></li>
+                      <li><a href="https://www.techpledgeconsulting.com/refund-policy">Refund-Policy</a></li>
+                      <li><a href="https://www.techpledgeconsulting.com/terms-conditions">Terms&Conditions</a></li>
                   </ul>
               </div>
               <div className="footer-list-29 footer-3">
