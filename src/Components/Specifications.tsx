@@ -29,7 +29,7 @@ function Specifications() {
                             </div>
                             <div className="col-lg-3 col-sm-6 mt-lg-0 mt-4">
                                 <div className="grids-speci1">
-                                    <h3 className="title-spe">1+ML</h3>
+                                    <h3 className="title-spe">10K+</h3>
                                     <p>REGISTERED <br/>STUDENTS</p>
                                 </div>
                             </div>

@@ -31,11 +31,11 @@ function Footer() {
               <div className="footer-list-29 footer-2">
                   <ul>
                       <h6 className="footer-title-29">Featured Links</h6>
-                      <li><a href="contact.html">Graduation</a></li>
-                      <li><a href="contact.html">Admissions</a></li>
-                      <li><a href="contact.html">Book Store</a></li>
-                      <li><a href="contact.html">International</a></li>
-                      <li><a href="contact.html">Courses</a></li>
+                      <li><a href="contact.html">Career</a></li>
+                      <li><a href="contact.html">Speciality </a></li>
+                      <li><a href="contact.html">Privacy-Policy</a></li>
+                      <li><a href="contact.html">Refund-Policy</a></li>
+                      <li><a href="contact.html">Terms&Conditions</a></li>
                   </ul>
               </div>
               <div className="footer-list-29 footer-3">

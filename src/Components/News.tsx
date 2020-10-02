@@ -88,7 +88,7 @@ function News() {
                             </div>
                             <div className="events-top-right">
                                 <h6 className="pricehead">
-                                    {/* <a href="#">Luctus et ultrices posuere</a> */}
+                                    <a href="#">Permanent Placement</a>
                                 </h6>
                                     <p className="mb-2 mt-3">
                                         Our specialized team provide Permanent Recruitment workforce solutions with proven expertise in recruiting, assessing and 
@@ -109,7 +109,7 @@ function News() {
                             </div>
                             <div className="events-top-right">
                                 <h6 className="pricehead">
-                                    {/* <a href="#">	Nulla mollis dapibus nunc, ut </a> */}
+                                    <a href="#">	Contract Placement </a>
                                     </h6>
                                     <p className="mb-2 mt-3">
                                         We Provide the assistance for candidate to get placed  as Contract employee in companies for specific job role. We do make the clear agreement with candidate and will pay the agreed remuneration within 7 days of getting payment from the client.
