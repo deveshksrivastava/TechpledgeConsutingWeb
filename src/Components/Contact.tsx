@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from "react-router-dom"
+
 function Contact() {
     const topFunction = () =>{
         document.body.scrollTop = 0;
@@ -16,7 +18,7 @@ function Contact() {
   <div className="breadcrum-bg py-sm-5 py-4">
     <div className="container py-lg-3">
       <h2>Contact Us</h2>
-      <p><a href="index.html">Home</a> &nbsp; / &nbsp; Contact</p>
+      <p><Link to="/" >Home</Link> / Contact</p>
     </div>
   </div>
 </section>

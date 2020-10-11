@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 function About() {
     return (
@@ -7,7 +8,7 @@ function About() {
   <div className="breadcrum-bg py-sm-5 py-4">
     <div className="container py-lg-3">
       <h2>About Us</h2>
-      <p><a href="index.html">Home</a> &nbsp; / &nbsp; About</p>
+      <p><Link to="/" >Home</Link> / About</p>
     </div>
   </div>
 </section>
@@ -120,7 +121,6 @@ function About() {
 			<div className="heading text-center mx-auto">
 				<h3 className="head">Our Skilled Instructors</h3>
 				<p className="my-3 head"> The each members of our Managements broad, itself come with more than two decades of industry experience .Our Instructors , who  are not trainers by professions but are veterans and experts from industry but drive with the passion of imparting their knowledge and experience.</p>
-				  
 			  </div>
 			<div className="row inner-sec-w3ls-w3pvt-aminfo pt-5 mt-3">
 				<div className="col-lg-2 col-sm-6">
@@ -237,7 +237,7 @@ function About() {
 							<img className="img-fluid rounded" src="assets/images/t5.jpg" alt="" />
 						</div>
 						<div className="team-info">
-							<h4>Poornima Arun</h4>
+							<h4>Aditi Srivastava</h4>
 							<ul className="d-flex justify-content-center py-3 social-icons">
 								<li className="effect-soc-team1">
 									<a href="#">

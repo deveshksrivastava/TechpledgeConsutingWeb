@@ -18,6 +18,7 @@ import PrivacyPolicy from './Components/PrivacyPolicy';
 import PricingPolicy from './Components/PricingPolicy';
 import TermsCondition from './Components/TermsCondition';
 import Carrer from './Components/Carrer';
+import Placements from './Components/Placements';
 
 function App() {
 //   const [scriptLoaded, setScriptLoaded] = useState(false);
@@ -54,6 +55,7 @@ function App() {
                   <Route path="/PricingPolicy" exact component={PricingPolicy} />
                   <Route path="/TermsCondition" exact component={TermsCondition} />
                   <Route path="/Carrer" exact component={Carrer} />
+                  <Route path="/Placements" exact component={Placements} />
                   <Route exact component={NotFound} />
               </Switch>
           </section>

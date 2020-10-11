@@ -8,7 +8,8 @@ function Header() {
             <nav className="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
                 <div className="container">
                     
-                <a className="navbar-brand" href="/"><span className="fa fa-pencil-square-o "></span> <img src="./assets/images/Logo.jpg" height="50px"  width="150px" /></a>
+                <a className="navbar-brand" href="/"><span className="fa fa-pencil-square-o "></span> 
+                <img src="./assets/images/Logo.jpg" height="50px"  width="150px" /></a>
                 {/* <!-- if logo is image enable this   
                 <a className="navbar-brand" href="#index.html">
                     <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
@@ -27,22 +28,35 @@ function Header() {
                     <li className="nav-item">
                         <Link className="nav-link" to="/about" >About</Link>
                     </li>
-    /
                     {/* <li className="nav-item">
-                         <a href="#">Training</a> 
+                   
+                          <a href="#">Training</a> 
                         <ul className="dropdown-menu">
                             <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Administrator Role</Link></li>
                             <li><Link className="nav-link" to="/desplayregisteruser" >Azure Cloud Architect</Link></li>
                             <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Data Analyst</Link></li>
                             <li><Link className="nav-link" to="/desplayregisteruser" >DevOps Consulting Role</Link></li>
                             <li><Link className="nav-link" to="/desplayregisteruser" >Server Administrator Role</Link></li>
-                        </ul> 
+                        </ul>  
+                    </li> */}
+                    <li id="nav-item">
+                        <a className="dropdown-toggle" data-toggle="dropdown" href="#google.com">Training</a>
+                        <ul className="dropdown-menu" >
+                            <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Administrator Role</Link></li>
+                            <li><Link className="nav-link" to="/desplayregisteruser" >Azure Cloud Architect</Link></li>
+                            <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Data Analyst</Link></li>
+                            <li><Link className="nav-link" to="/desplayregisteruser" >DevOps Consulting Role</Link></li>
+                            <li><Link className="nav-link" to="/desplayregisteruser" >Server Administrator Role</Link></li>
+                        </ul>
+                    </li>
+                    {/* <li className="nav-item">
+                        <Link className="nav-link"  to="/Training" >Training</Link>
                     </li> */}
                     <li className="nav-item">
-                        <Link className="nav-link"  to="/services" >Training</Link>
+                        <Link className="nav-link" to="/CardCertificate" >Certification</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/CardCertificate" >Certification</Link>
+                        <Link className="nav-link" to="/Placements" >Placements</Link>
                     </li>
                     
                     <li className="nav-item">

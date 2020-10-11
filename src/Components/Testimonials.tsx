@@ -29,6 +29,7 @@ function Testimonials() {
               <p> 
                   Techpledge, an amazing place to learn from scratch, I completed my AWS and DevOps course. Support from trainer for any queries technically or non technically was awesome, Definitely i recommend people to learn with Techpledge and explore which would be a good start in your career. Good luck.
               </p>
+              <p>For More Review Visit Google Review: <a  className="my-3 head text-white" href="https://g.page/Techpledge/review">https://g.page/Techpledge/review</a></p>
               
           </div>
          </div>

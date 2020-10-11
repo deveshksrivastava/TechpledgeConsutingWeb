@@ -4589,34 +4589,33 @@ input[type="button"].btn-block {
     margin-left: 0; }
 
 .dropdown-menu {
-  /* position: absolute; */
-  top: 90%;
-  /* left: 0; */
+  position: absolute;
+  top: 100%;
+  left: 0;
   z-index: 100;
   display: none;
   float: left;
   /* min-width: 10rem; */
-  max-width: 20rem;
-  padding: 0.2rem 0;
+  max-width: 7rem;
+  padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #ee0000;
   text-align: left;
   list-style: none;
-  background-color:darkgrey;
-  /* background-color:#d3d9df; */
+  background-color:#002147;;
   background-clip: padding-box;
-  border: 1px solid rgba(255, 125, 125, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem; 
 }
 
 .dropdown-menu-traning {
-  position:static;
+  position: absolute;
   top: 100%;
-  /* left: 0; */
+  left: 0;
   z-index: 100;
   display: none;
-  /* float: left; */
+  float: left;
   /* min-width: 10rem; */
   max-width: 7rem;
   padding: 0.5rem 0;
