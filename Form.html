@@ -1,0 +1,57 @@
+
+<html>
+    <head>
+        <style>
+            #ppout{
+                height:10px;
+                width: 100px;
+                visibility: visible;
+               
+            }
+            p{
+                color:red
+            }
+        </style>
+        <script src="form.js"></script>
+
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>FirstName</label>
+                <input type="text" id="fname" onblur="validatefname()"/>
+                <p id="fout"> </p>
+            </div>
+            <div>
+                <label>LastName</label>
+                <input type="text" id="lname"/>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="text" id="pwd" oninput="validatepwd()"/>
+                <p id="pout"></p>
+                <div id="ppout"></div>
+            </div>
+            <div>
+                <label>Confirm Password</label>
+                <input type="text" id="cpwd" oninput="validatecpwd()"/>
+                <p id="cout"></p>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" id="email" onblur="validateemail()"/>
+                <p id="eout"></p>
+            </div>
+            <div>
+                <label>Experince</label>
+                <select id="exp" onchange="experince()">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <p id="expout"></p>
+            </div>
+        </form>
+    </body>
+</html>

@@ -33,6 +33,7 @@ function Contact() {
                         <div className="cont-add">
                             
                            <div className="cont-add-rgt">
+                            <p><img src="assets/images/indiaflag.png" height="60px" width="80px" className="img-responsive" alt=""/></p>
                             <h4>Address:</h4>
                             <p className="contact-text-sub">
                                     TechPledge Consulting Service Pvt Ltd, Bengaluru, Karnataka 560025</p>
@@ -102,6 +103,50 @@ function Contact() {
                 {/* <!-- //contact form --> */}
             </div>
         </div>
+        <hr></hr>
+	{/* <!-- /features --> */}
+		<div className="features py-4">
+            <div className="container pb-5">
+			
+			<div className="fea-gd-vv row ">	
+			   <div className="float-lt feature-gd col-lg-4 col-sm-6">	
+					 <div className="icon-info">
+						<h5><img src="assets/images/englandflag.png" height="60px" width="80px" className="img-responsive" alt=""/></h5>
+						<h6>
+						info@techpledgeconsulting.uk<br/>
+
+                        call:  44 - 808 - 196 - 8097
+						</h6>
+					</div>
+					 
+				</div>	
+				<div className="float-mid feature-gd col-lg-4 col-sm-6 mt-sm-0 mt-4">	
+					
+					 <div className="icon-info">
+						<h5 ><img src="assets/images/canadaflag.png" height="60px" width="80px" className="img-responsive" alt=""/></h5>
+						<h6>
+						info@techpledgeconsulting.ca<br/>
+
+                        call:  1- 888 - 535 - 2354
+						</h6>
+												
+					</div>
+			 </div> 
+				<div className="float-rt feature-gd col-lg-4 col-sm-6 mt-lg-0 mt-4">	
+					
+					 <div className="icon-info">
+						<h5><img src="assets/images/american-flag.png" height="60px" width="80px" className="img-responsive" alt=""/></h5>
+						<h6>
+						info@techpledgeconsulting.us <br />
+                        WhatsApp: +1 (848) - 467 - 6424<br />
+                        Call: +1 929 - 494 - 5455
+						</h6>
+					</div>
+			 </div>	 
+			 	
+		</div>  
+		 </div>
+	   </div>
         {/* <!-- map --> */}
         <div className="map">
         {/* https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications */}

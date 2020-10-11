@@ -1,0 +1,95 @@
+// Ecma Script
+// Ecma 5
+// Ecma 6
+// Ecma 7
+// > variable
+// > Operations
+// > condition
+// > String
+// > Math
+// > Github
+// > localstorage
+// > sessionStorage
+// > cookies
+// > String literals
+// > if else
+// > ternery Operations
+// > Date
+// > switch
+// > regex
+// > array
+// > loops
+// > Functions
+// > maps,filter
+// > Es6
+//     > let, const
+// > Clousers
+// > Hoisting
+// > null/undefined
+// > package.JSON
+// > npm
+// > JSON
+// > Es6
+//     > Transpile
+//     > import export
+// > object 
+// > this 
+// > classes
+// > Prototypes
+// > DoM
+// > Calc
+// > Geolocation
+// > Form validation
+// > Event
+// > currenyConvertor
+// > promis
+// > async await
+/////////////////////////
+
+> Call/Apply
+> Progress bar
+> palindrome
+> fabonicci
+> factorial
+> screen
+> Dynamic DropDown
+> Weather application
+> ajax
+> Baisc Jquery
+
+//////
+Github
+///
+
+{{first time for particular repo}}
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testjavascript.git
+git push -u origin master
+
+
+git pull
+
+{{next every time for particular repo}}
+git add .
+git commit -m "first commit"
+git push
+
+
+https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
+var password = "pushpa123";
+password.match("^([a-zA-Z0-9]{8,})$"); 
+
+pass.match("^([a-zA-Z0-9$@&]{8})$")
+
+
+//////
+generate package.JSON
+///////
+> go inside the folder
+> npm init -y
+
+npm i @babel/core @babel/preset-env @babel/register

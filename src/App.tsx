@@ -8,11 +8,16 @@ import NotFound from './Components/NotFound';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import TopMenu from './Components/TopMenu';
-import Certification from './Components/Certification';
+// import Certification from './Components/Certification';
 import Training from './Components/Training';
-import Map from './Map/';
-import {loadMapApi} from "./utils/GoogleMapsUtils";
+// import Map from './Map/';
+// import {loadMapApi} from "./utils/GoogleMapsUtils";
 import Demo from './Components/Demo';
+import CardCertificate from './Components/CardCertificate';
+import PrivacyPolicy from './Components/PrivacyPolicy';
+import PricingPolicy from './Components/PricingPolicy';
+import TermsCondition from './Components/TermsCondition';
+import Carrer from './Components/Carrer';
 
 function App() {
 //   const [scriptLoaded, setScriptLoaded] = useState(false);
@@ -40,11 +45,15 @@ function App() {
               <Switch>
                   <Route path="/" exact component= {Home} />
                   <Route path="/about"  exact component={About} />
-                  <Route path="/certification"  exact component={Certification} />
+                  <Route path="/CardCertificate"  exact component={CardCertificate} />
                   <Route path="/training"  exact component={Training} />
                   <Route path="/services" exact component={Services} />
                   <Route path="/contact" exact component={Contact} />
                   <Route path="/demo" exact component={Demo} />
+                  <Route path="/PrivacyPolicy" exact component={PrivacyPolicy} />
+                  <Route path="/PricingPolicy" exact component={PricingPolicy} />
+                  <Route path="/TermsCondition" exact component={TermsCondition} />
+                  <Route path="/Carrer" exact component={Carrer} />
                   <Route exact component={NotFound} />
               </Switch>
           </section>

@@ -27,9 +27,10 @@ function Header() {
                     <li className="nav-item">
                         <Link className="nav-link" to="/about" >About</Link>
                     </li>
+    /
                     {/* <li className="nav-item">
-                        <a href="#" >Training</a>
-                        {/* <ul className="dropdown-menu">
+                         <a href="#">Training</a> 
+                        <ul className="dropdown-menu">
                             <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Administrator Role</Link></li>
                             <li><Link className="nav-link" to="/desplayregisteruser" >Azure Cloud Architect</Link></li>
                             <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Data Analyst</Link></li>
@@ -38,15 +39,17 @@ function Header() {
                         </ul> 
                     </li> */}
                     <li className="nav-item">
-                        <Link className="nav-link" to="/services" >Training</Link>
+                        <Link className="nav-link"  to="/services" >Training</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/services" >Certification</Link>
+                        <Link className="nav-link" to="/CardCertificate" >Certification</Link>
                     </li>
                     
                     <li className="nav-item">
-                        <Link className="nav-link" to="/services" >Services</Link>
+                        <a className="nav-link" href="https://www.techpledgeconsulting.uk/">Services </a> 
+                        {/* <Link className="nav-link" to="/services" >Services</Link> */}
                     </li>
+                    
                     
                     <li className="nav-item">
                         <Link className="nav-link" to="/contact" >Contact</Link>
