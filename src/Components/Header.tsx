@@ -23,50 +23,51 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                         <Link className="nav-link" to="/" >Home</Link>
+                         <Link  to="/" >Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/about" >About</Link>
+                        <Link  to="/about" >&nbsp;&nbsp;&nbsp;About</Link>
                     </li>
-                    {/* <li className="nav-item">
                    
-                          <a href="#">Training</a> 
-                        <ul className="dropdown-menu">
-                            <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Administrator Role</Link></li>
-                            <li><Link className="nav-link" to="/desplayregisteruser" >Azure Cloud Architect</Link></li>
-                            <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Data Analyst</Link></li>
-                            <li><Link className="nav-link" to="/desplayregisteruser" >DevOps Consulting Role</Link></li>
-                            <li><Link className="nav-link" to="/desplayregisteruser" >Server Administrator Role</Link></li>
-                        </ul>  
-                    </li> */}
                     <li id="nav-item">
-                        <a className="dropdown-toggle" data-toggle="dropdown" href="#google.com">Training</a>
+                        <a className="dropdown-toggle" data-toggle="dropdown" href="#google.com">&nbsp;&nbsp;&nbsp;Training  </a>
                         <ul className="dropdown-menu" >
-                            <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Administrator Role</Link></li>
-                            <li><Link className="nav-link" to="/desplayregisteruser" >Azure Cloud Architect</Link></li>
-                            <li><Link className="nav-link" to="/desplayregisteruser" >Cloud Data Analyst</Link></li>
-                            <li><Link className="nav-link" to="/desplayregisteruser" >DevOps Consulting Role</Link></li>
-                            <li><Link className="nav-link" to="/desplayregisteruser" >Server Administrator Role</Link></li>
+                            <li><Link className="nav-link" to="/CloudAdministratorRole" >Cloud Administrator Role</Link></li>
+                            <li><Link className="nav-link" to="/AzureCloudArchitectRole" >Azure Cloud Architect</Link></li>
+                            <li><Link className="nav-link" to="/CloudDataAnalystRole" >Cloud Data Analyst</Link></li>
+                            <li><Link className="nav-link" to="/DevOpsConsultingRole" >DevOps Consulting Role</Link></li>
+                            <li><Link className="nav-link" to="/ServerAdministratorRole" >Server Administrator Role</Link></li>
                         </ul>
                     </li>
-                    {/* <li className="nav-item">
-                        <Link className="nav-link"  to="/Training" >Training</Link>
-                    </li> */}
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/CardCertificate" >Certification</Link>
+                    <li id="nav-item">
+                        <a className="dropdown-toggle" data-toggle="dropdown" href="#google.com"> &nbsp;&nbsp;&nbsp;Certification</a>
+                        <ul className="dropdown-menu" >
+                            <li><Link className="nav-link" to="/MicrosoftCertificationsCard" >Microsoft Certifications</Link></li>
+                            <li><Link className="nav-link" to="/AWSCertificationsCard" >AWS Certifications</Link></li>
+                            <li><Link className="nav-link" to="/DevOpsCertificationsCard" >DevOpsCertifications</Link></li>
+                        </ul>
                     </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/Placements" >Placements</Link>
+                   
+
+                    <li id="nav-item">
+                        <a className="dropdown-toggle" data-toggle="dropdown" href="#google.com"> &nbsp;&nbsp;&nbsp;Placements</a>
+                        <ul className="dropdown-menu" >
+                            <li><Link className="nav-link" to="/JobAssistance" >TechPledge Job Assist</Link></li>
+                            <li><Link className="nav-link" to="/PermanentPositionPlacements" >Permanent Position – Placements</Link></li>
+                            <li><Link className="nav-link" to="/ContractPositionPlacements" >Contract Position – Placements </Link></li>
+                            <li><Link className="nav-link" to="/OffshoreHiringPlacements" >Offshore Hiring – Placements </Link></li>
+                        </ul>
                     </li>
                     
-                    <li className="nav-item">
-                        <a className="nav-link" href="https://www.techpledgeconsulting.uk/">Services </a> 
-                        {/* <Link className="nav-link" to="/services" >Services</Link> */}
+                    <li id="nav-item">
+                        <a  href="https://www.techpledgeconsulting.uk/"  > &nbsp;&nbsp;&nbsp;Services</a>                   
                     </li>
+                   
                     
                     
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/contact" >Contact</Link>
+                    <li id="nav-item">
+                        {/* <a  href="https://www.techpledgeconsulting.uk/"  > &nbsp;&nbsp;&nbsp;Services</a>   */}
+                        <Link  to="/contact" >&nbsp;&nbsp;&nbsp;Contact</Link>
                     </li>
                     </ul>
                     <form action="search-results.html" className="form-inline position-relative my-2 my-lg-0">

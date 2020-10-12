@@ -8,10 +8,7 @@ import NotFound from './Components/NotFound';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import TopMenu from './Components/TopMenu';
-// import Certification from './Components/Certification';
 import Training from './Components/Training';
-// import Map from './Map/';
-// import {loadMapApi} from "./utils/GoogleMapsUtils";
 import Demo from './Components/Demo';
 import CardCertificate from './Components/CardCertificate';
 import PrivacyPolicy from './Components/PrivacyPolicy';
@@ -19,6 +16,20 @@ import PricingPolicy from './Components/PricingPolicy';
 import TermsCondition from './Components/TermsCondition';
 import Carrer from './Components/Carrer';
 import Placements from './Components/Placements';
+import AWSCertificationsCard from './Components/Training/AWSCertificationsCard';
+import AzureCloudArchitectRole from './Components/Training/AzureCloudArchitectRole';
+import MicrosoftCertificationsCard from './Components/Training/MicrosoftCertificationsCard';
+import ServerAdministratorRole from './Components/Training/ServerAdministratorRole';
+import DevOpsConsultingRole from './Components/Training/DevOpsConsultingRole';
+import DevOpsCertificationsCard from './Components/Training/DevOpsCertificationsCard';
+import CloudDataAnalystRole from './Components/Training/CloudDataAnalystRole';
+import CloudAdministratorRole from './Components/Training/CloudAdministratorRole';
+import JobAssistance from './Components/Placements/JobAssistance';
+import PermanentPositionPlacements from './Components/Placements/PermanentPositionPlacements';
+import ContractPositionPlacements from './Components/Placements/ContractPositionPlacements';
+import OffshoreHiringPlacements from './Components/Placements/OffshoreHiringPlacements';
+// import Map from './Map/';
+// import {loadMapApi} from "./utils/GoogleMapsUtils";
 
 function App() {
 //   const [scriptLoaded, setScriptLoaded] = useState(false);
@@ -56,6 +67,21 @@ function App() {
                   <Route path="/TermsCondition" exact component={TermsCondition} />
                   <Route path="/Carrer" exact component={Carrer} />
                   <Route path="/Placements" exact component={Placements} />
+                  <Route path="/AWSCertificationsCard" exact component={AWSCertificationsCard} />
+                  <Route path="/AzureCloudArchitectRole" exact component={AzureCloudArchitectRole} />
+                  <Route path="/CloudAdministratorRole" exact component={CloudAdministratorRole} />
+                  <Route path="/CloudDataAnalystRole" exact component={CloudDataAnalystRole} />
+                  <Route path="/DevOpsCertificationsCard" exact component={DevOpsCertificationsCard} />
+                  <Route path="/DevOpsConsultingRole" exact component={DevOpsConsultingRole} />
+                  <Route path="/MicrosoftCertificationsCard" exact component={MicrosoftCertificationsCard} />
+                  <Route path="/ServerAdministratorRole" exact component={ServerAdministratorRole} />
+
+                  <Route path="/JobAssistance" exact component={JobAssistance} />
+                  <Route path="/PermanentPositionPlacements" exact component={PermanentPositionPlacements} />
+                  <Route path="/ContractPositionPlacements" exact component={ContractPositionPlacements} />
+                  <Route path="/OffshoreHiringPlacements" exact component={OffshoreHiringPlacements} />
+
+
                   <Route exact component={NotFound} />
               </Switch>
           </section>
