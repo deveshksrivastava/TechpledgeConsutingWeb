@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './Header';
 import Slider from './Slider';
 import Feature from './Feature';
 import Form12 from './Form12';
@@ -12,7 +11,7 @@ function Home() {
     return (
         <div>
                 <Slider />
-                {/* <Feature />   */}
+                <Feature />  
                 <AboutMain />
                 {/* Apply for scolership */}
                 <Course /> 

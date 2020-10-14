@@ -4625,7 +4625,8 @@ input[type="button"].btn-block {
   color: #ee0000;
   text-align: left;
   list-style: none;
-  background-color:#002147;;
+  /* background-color:#002147;; */
+  background-color: #002147;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem; 
@@ -11161,7 +11162,7 @@ button.owl-next {
   /*--responsive--*/
   /*--//responsive--*/ }
   .w3l-feature-3 .grid.top-bottom {
-    margin-top: -100px;
+    /* margin-top: -100px; */
     z-index: 10;
     position: relative; }
   .w3l-feature-3 span.number img {

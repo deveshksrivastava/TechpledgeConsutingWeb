@@ -57,6 +57,7 @@ var movies = [
     }
 ]
 
+
 // JSON > JavaScript Object Notation
 // Array of object 
 

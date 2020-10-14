@@ -8,8 +8,8 @@ function Slider() {
             <div>
                 {/* <!-- main-slider --> */}
                 <div className="companies20-content">        
-                    <div className="owl-one owl-carousel owl-theme">
-                            <div className="item">
+                    <div >
+                            {/* <div className="item">
                                 <li>
                                 <div className="slider-info banner-view bg bg2" data-selector=".bg.bg2">
                                     <div className="banner-info">
@@ -51,21 +51,21 @@ function Slider() {
                                     </div>
                                 </div>
                                 </li>
-                            </div>
+                            </div> */}
                             <div className="item">
-                        <li>
-                        <div className="slider-info banner-view banner-top3 bg bg2" data-selector=".bg.bg2">
-                            <div className="banner-info">
-                            <div className="container">
-                                <div className="banner-info-bg mx-auto text-center">
-                                <h5>Explore The World Of Our Graduates</h5>
-                                <a className="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                                <li>
+                                <div className="slider-info banner-view banner-top3 bg bg2" data-selector=".bg.bg2">
+                                    <div className="banner-info">
+                                    <div className="container">
+                                        <div className="banner-info-bg mx-auto text-center">
+                                        <h5>Explore The World Of Technology</h5>
+                                        <a className="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                                        </div>
+                                    </div>
+                                    </div>
                                 </div>
+                                </li>
                             </div>
-                            </div>
-                        </div>
-                        </li>
-                    </div>
                     </div>
                 </div>
         

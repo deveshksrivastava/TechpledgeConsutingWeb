@@ -33,10 +33,11 @@ function Header() {
                         <a className="dropdown-toggle" data-toggle="dropdown" href="#google.com">&nbsp;&nbsp;&nbsp;Training  </a>
                         <ul className="dropdown-menu" >
                             <li><Link className="nav-link" to="/CloudAdministratorRole" >Cloud Administrator Role</Link></li>
-                            <li><Link className="nav-link" to="/AzureCloudArchitectRole" >Azure Cloud Architect</Link></li>
+                            <li><Link className="nav-link" to="/AzureCloudArchitectRole" >Cloud Architect</Link></li>
                             <li><Link className="nav-link" to="/CloudDataAnalystRole" >Cloud Data Analyst</Link></li>
                             <li><Link className="nav-link" to="/DevOpsConsultingRole" >DevOps Consulting Role</Link></li>
                             <li><Link className="nav-link" to="/ServerAdministratorRole" >Server Administrator Role</Link></li>
+                            <li><Link className="nav-link" to="/SoftwareProgramerRole" >Software Programer Role</Link></li>
                         </ul>
                     </li>
                     <li id="nav-item">

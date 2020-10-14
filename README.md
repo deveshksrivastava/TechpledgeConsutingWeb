@@ -85,3 +85,10 @@ Existing Git repository
 For existing repositories, simply add the heroku remote
 
 $ heroku git:remote -a techpledge
+
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git push heroku origin
+error: src refspec origin does not match any
+error: failed to push some refs to 'https://git.heroku.com/tranquil-retreat-00047.git'
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git push heroku HEAD:master

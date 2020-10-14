@@ -16,12 +16,12 @@ function CloudAdministratorRole() {
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <CardsTranning title={`test`} certificate={`certificate`} examcode={`examcode`} tranhrs={`tranhrs`} exmpre={`exmpre`} price={`price`} pdfURL={`pdfURL`} />
+                              <CardsTranning title={`Cloud Administrator Role`} certificate={`Azure Cloud Administrator`} examcode={`AZ-104`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`588`} pdfURL={`AZ-104.pdf`} />
                           </div>					 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <CardsTranning title={`test`} certificate={`certificate`} examcode={`examcode`} tranhrs={`tranhrs`} exmpre={`exmpre`} price={`price`} pdfURL={`pdfURL`} />
+                              <CardsTranning title={`Cloud Administrator Role`} certificate={`AWS Cloud Support Engineer`} examcode={`SOA-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`516`} pdfURL={`AWS-Practitioner.pdf`} />
                           </div>					 
                         </div>	
                       </div>  
@@ -29,38 +29,13 @@ function CloudAdministratorRole() {
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <CardsTranning title={`test`} certificate={`certificate`} examcode={`examcode`} tranhrs={`tranhrs`} exmpre={`exmpre`} price={`price`} pdfURL={`pdfURL`} />
+                              <CardsTranning title={`Cloud Administrator Role`} certificate={`AWS Cloud Administrator`} examcode={`SAA-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`588`} pdfURL={`AWS-SysOps.pdf`} />
                           </div>					 
                         </div>	
-                        <div className="float-lt feature-gd col-lg-4 col-sm-12">	
-                          <div className="icon-info">
-                              <CardsTranning title={`test`} certificate={`certificate`} examcode={`examcode`} tranhrs={`tranhrs`} exmpre={`exmpre`} price={`price`} pdfURL={`pdfURL`} />
-                          </div>					 
-                        </div>	
-                        <div className="float-lt feature-gd col-lg-4 col-sm-12">	
-                          <div className="icon-info">
-                              <CardsTranning title={`test`} certificate={`certificate`} examcode={`examcode`} tranhrs={`tranhrs`} exmpre={`exmpre`} price={`price`} pdfURL={`pdfURL`} />
-                          </div>					 
-                        </div>	
+                       
                       </div>  
                       <hr/>
-                      <div className="fea-gd-vv row ">	
-                        <div className="float-lt feature-gd col-lg-4 col-sm-12">	
-                          <div className="icon-info">
-                              <CardsTranning title={`test`} certificate={`certificate`} examcode={`examcode`} tranhrs={`tranhrs`} exmpre={`exmpre`} price={`price`} pdfURL={`pdfURL`} />
-                          </div>					 
-                        </div>	
-                        <div className="float-lt feature-gd col-lg-4 col-sm-12">	
-                          <div className="icon-info">
-                              <CardsTranning title={`test`} certificate={`certificate`} examcode={`examcode`} tranhrs={`tranhrs`} exmpre={`exmpre`} price={`price`} pdfURL={`pdfURL`} />
-                          </div>					 
-                        </div>	
-                        <div className="float-lt feature-gd col-lg-4 col-sm-12">	
-                          <div className="icon-info">
-                              <CardsTranning title={`test`} certificate={`certificate`} examcode={`examcode`} tranhrs={`tranhrs`} exmpre={`exmpre`} price={`price`} pdfURL={`pdfURL`} />
-                          </div>					 
-                        </div>	
-                      </div>  
+                     
                       
                   </div>
           </div>

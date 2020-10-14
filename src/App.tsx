@@ -28,6 +28,7 @@ import JobAssistance from './Components/Placements/JobAssistance';
 import PermanentPositionPlacements from './Components/Placements/PermanentPositionPlacements';
 import ContractPositionPlacements from './Components/Placements/ContractPositionPlacements';
 import OffshoreHiringPlacements from './Components/Placements/OffshoreHiringPlacements';
+import SoftwareProgramerRole from './Components/Training/SoftwareProgramerRole';
 // import Map from './Map/';
 // import {loadMapApi} from "./utils/GoogleMapsUtils";
 
@@ -42,6 +43,7 @@ function App() {
   return (
 
     <div className="App">
+ 
        {/* {scriptLoaded && (
                 <Map
                   mapType={google.maps.MapTypeId.ROADMAP}
@@ -80,6 +82,7 @@ function App() {
                   <Route path="/PermanentPositionPlacements" exact component={PermanentPositionPlacements} />
                   <Route path="/ContractPositionPlacements" exact component={ContractPositionPlacements} />
                   <Route path="/OffshoreHiringPlacements" exact component={OffshoreHiringPlacements} />
+                  <Route path="/SoftwareProgramerRole" exact component={SoftwareProgramerRole} />
 
 
                   <Route exact component={NotFound} />

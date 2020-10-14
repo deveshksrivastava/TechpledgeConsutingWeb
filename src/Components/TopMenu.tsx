@@ -19,7 +19,10 @@ function TopMenu() {
                                                 <li><a href="/about-us.html">&nbsp;&nbsp; &nbsp;Canada</a></li>
                                                 <li><a href="/fr/about-us.html">USA</a></li>
                                                 <li><a href="/about-us.html">India</a></li>
-                                                <li><a href="/fr/about-us.html">Australia</a></li>
+                                                <li><a href="/fr/about-us.html">Nigeria</a></li>
+                                                <li><a href="/fr/about-us.html">Tanzania</a></li>
+                                                <li><a href="/fr/about-us.html">Saudi</a></li>
+                                                <li><a href="/fr/about-us.html">UAE</a></li>
                                             </ul>
                                         </li>
                                 </div>
