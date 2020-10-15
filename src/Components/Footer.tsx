@@ -15,8 +15,7 @@ function Footer() {
               <div className="footer-list-29 footer-1">
                   <h6 className="footer-title-29">Contact Us</h6>
                   <ul>
-                      <li><p><span className="fa fa-map-marker"></span>TechPledge Consulting Service Pvt Ltd
-                      , Gopal Krishna Complex, 1st Floor,#45/3, Residency Rd, Ashok Nagar,Bengaluru, Karnataka 560025</p></li>
+                      <li><p><span className="fa fa-map-marker"></span>1st Floor, Gopal Krishna Complex, #45/3, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025</p></li>
                       <li><a href="tel:+7-800-999-800"><span className="fa fa-phone"></span> +(91)-767-6703-141</a></li>
                       <li><a href="mailto:info@techpledgeconsulting.com" className="mail"><span className="fa fa-envelope-open-o"></span>  info@techpledgeconsulting.com</a></li>
                   </ul>
@@ -54,14 +53,13 @@ function Footer() {
                       <h6 className="footer-title-29">Quick Links</h6>
                       <li><Link  to="/" >Home</Link></li> 
                       <li><Link to="/about" >About</Link></li>
-                      <li><Link to="/services" >Services</Link></li>
-                      <li><Link to="#" >Blog</Link></li>
+                      <li><a href="https://www.techpledgeconsulting.uk/" >Services</a></li>
                       <li><Link to="contact" >Contact</Link></li>
                   </ul>
               </div>
           </div>
           <div className="d-grid grid-col-2 bottom-copies">
-              <p className="copy-footer-29">© 2020. All rights reserved | Designed by <a href="https://TechDev.com">@TechDev</a></p>
+              <p className="copy-footer-29">© 2020. All rights reserved | Designed by <a href="Devesh Srivastava">@TechDev</a></p>
                <ul className="list-btm-29">
                       <li><a href="#link">Privacy policy</a></li>
                       <li><a href="#link">Terms of service</a></li>

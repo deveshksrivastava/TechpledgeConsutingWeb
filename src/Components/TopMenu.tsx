@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import {Link} from "react-router-dom"
 function TopMenu() {
     return (
         <div>
@@ -16,13 +16,17 @@ function TopMenu() {
                                         <li id="lang-switcher">
                                             <a className="dropdown-toggle" data-toggle="dropdown" href="#">Country</a>
                                             <ul className="dropdown-menu" >
-                                                <li><a href="/about-us.html">&nbsp;&nbsp; &nbsp;Canada</a></li>
-                                                <li><a href="/fr/about-us.html">USA</a></li>
-                                                <li><a href="/about-us.html">India</a></li>
-                                                <li><a href="/fr/about-us.html">Nigeria</a></li>
-                                                <li><a href="/fr/about-us.html">Tanzania</a></li>
-                                                <li><a href="/fr/about-us.html">Saudi</a></li>
-                                                <li><a href="/fr/about-us.html">UAE</a></li>
+
+                                                <li><Link to="contact" >&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;USA</Link></li>
+                                                <li><Link to="contact" >Canada</Link></li>
+                                                <li><Link to="contact" >India</Link></li>
+                                                <li><Link to="contact" >UK</Link></li>
+                                                <li><Link to="contact" >Australia</Link></li>
+                                                <li><Link to="contact" >Nigeria</Link></li>
+                                                <li><Link to="contact" >Nigeria</Link></li>
+                                                <li><Link to="contact" >Saudi</Link></li>
+                                                <li><Link to="contact" >UAE</Link></li>
+
                                             </ul>
                                         </li>
                                 </div>

@@ -38,7 +38,7 @@ function Contact() {
                             <p><img src="assets/images/indiaflag.png" height="60px" width="80px" className="img-responsive" alt=""/></p>
                             <h4>Address:</h4>
                             <p className="contact-text-sub">
-                                    TechPledge Consulting Service Pvt Ltd, Bengaluru, Karnataka 560025</p>
+                                    TechPledge Consulting Service Pvt Ltd, 1st Floor, Gopal Krishna Complex, #45/3, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025</p>
                         </div>
                         <div className="cont-add-lft">
                             <span className="fa fa-map-marker" aria-hidden="true"></span>
@@ -153,7 +153,7 @@ function Contact() {
         <div className="map">
         {/* https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications */}
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.7281066703!2d-0.24168144921176335!3d51.5287718408761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1569921526194!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0509269720237!2d77.59974021461191!3d12.968593090857846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae167e50651a95%3A0xe89b7930a5edac16!2sTechpledge%20Consulting%20Services!5e0!3m2!1sen!2sin!4v1602768205925!5m2!1sen!2sin"
                  ></iframe>
                 {/* frameborder="0" 
                 allowfullscreen="" */}
