@@ -11,7 +11,7 @@ function CloudAdministratorRole() {
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                               {/* <Cards topic1={`Skills and Experiance`} /> */}
-                              <CardsTranning title={`Cloud Administrator Role`} certificate={`Azure Cloud Support Engineer`} examcode={`AZ-900`} tranhrs={`26 Hr`} exmpre={`6 Hr`} price={`516`} pdfURL={`AZ-900.pdf`} />
+                              <CardsTranning title={`Cloud Administrator Role`} certificate={`Azure Cloud Support Engineer`} examcode={`AZ-900`} tranhrs={`26 Hr`} exmpre={`6 Hr`} price={`516`} pdfURL={`assets/images/Cloud Administratoer/AZ-900.pdf`} />
                           </div>					 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	

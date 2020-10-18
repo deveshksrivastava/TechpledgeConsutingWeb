@@ -19,6 +19,8 @@ function About() {
             <div className="cwp4-two row">
                 <div className="cwp4-text col-lg-6">
                     <h3>About Our Organisation</h3>
+					<p>TechPledge is founded with  a promise to make Tech a force for good and ensure responsible and sustainable Tech leadership. It’s more then an organization created and a commitment to driving a new direction in technology.</p>
+					<p>TechPledge where Technologists meet to create the Responsible Technologists. We Born from with the tech industry. We at TechPledge  committed  to driving a new direction in technology. It and should remain seen as our promise to ensure responsible and sustainable tech leadership, because we believe that with technical skills responsibility also follow. </p>
 					<p>
 						TechPledge Consulting Services Pvt Ltd has been Founded in year 2015 as a Business, Training & IT consulting firm and incorpoarted in the year 2016, under the dymanic leadership of our CEO Mrs. Jaya Shanker. We are helping businesses accelerate to achieve their maximum and build valuable relationships across global networks. Our innovative technology, customized training and quality consulting simplifies complexities and gives freedom to facilitate and implement a successful business process.
 					</p>

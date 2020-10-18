@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 function News() {
     return (
@@ -119,7 +120,9 @@ function News() {
                             </div>
                         </div>
                         <div className="text-right mt-4">
-                          <a className="btn btn-secondary btn-theme2" href="#"> View All</a>
+                          {/* <a className="btn btn-secondary btn-theme2" href="#"> View All</a> */}
+                          <Link className="btn btn-secondary btn-theme2 mt-md-5 mt-4" to="./JobAssistance" >View All</Link>
+                          
                         </div>
                       </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 function Slider() {
     return (
@@ -59,7 +60,8 @@ function Slider() {
                                     <div className="container">
                                         <div className="banner-info-bg mx-auto text-center">
                                         <h5>Explore The World Of Technology</h5>
-                                        <a className="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                                        {/* <a className="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a> */}
+                                        <Link className="btn btn-secondary btn-theme2 mt-md-5 mt-4" to="/" >Read More</Link>
                                         </div>
                                     </div>
                                     </div>

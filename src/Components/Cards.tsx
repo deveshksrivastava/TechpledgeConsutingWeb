@@ -56,7 +56,7 @@ const useStyles = makeStyles({
               </CardContent>
               <CardActions>  
              
-              <a href={pdfURL} className="btn-custom" download="resume-devesh">
+              <a href={pdfURL} className="btn-custom" >
                         <span><i className="fas fa-cloud-download-alt"></i></span>
                         <span><b className={classes.root}>View Detail</b></span>
                     </a>    

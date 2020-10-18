@@ -8,13 +8,14 @@ function Demo() {
 					<div className="container py-md-3">
 					
 						<div className="calltoaction-20-content row">
-							<div className="column center-align-self col-lg-6 pr-lg-5">
-								<h5 className="editContent">Book A Demo..</h5>
-								<p className="more-gap editContent">
+							<div className="column center-align-self col-lg-12 pr-lg-5">
+								<h3 className="editContent">Book A Demo..</h3><br />
+								<h4 className="more-gap editContent">
                                 <b>Book </b>a Free Online <b>Demo</b> Today. Our Customer Success Team are here to help, providing customized demonstrations or 
-                                 <b>training</b>, whenever it's needed. We are very flexible with <b>demo</b> times and will work around .
-								</p>
-								<p>https://www.techpledgeconsulting.us/admission-form</p>
+                                 <b>training</b>, whenever it's needed. We are very flexible with <b>demo</b> times and will work around. 
+								</h4><br />
+								<p>Call US: +(91)-767-6703-141</p>
+ 								<p>Eamil US: info@techpledgeconsulting.com</p>
                                 </div>
 							
 						</div>
