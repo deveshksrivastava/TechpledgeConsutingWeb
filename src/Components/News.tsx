@@ -73,7 +73,7 @@ function News() {
                         </div>
                     </div>
                     <div className="text-right mt-4">
-                        <a className="btn btn-secondary btn-theme2" href="#"> View All</a>
+                        <a href={`assets/images/speciality.pdf`} className="btn btn-secondary btn-theme2">View All </a>
                       </div>
                     </div>
                     <div className="w3l-faq-page col-lg-6 pl-3 pl-lg-5 mt-lg-0 mt-5">
@@ -121,6 +121,8 @@ function News() {
                         </div>
                         <div className="text-right mt-4">
                           {/* <a className="btn btn-secondary btn-theme2" href="#"> View All</a> */}
+
+                      
                           <Link className="btn btn-secondary btn-theme2 mt-md-5 mt-4" to="./JobAssistance" >View All</Link>
                           
                         </div>
