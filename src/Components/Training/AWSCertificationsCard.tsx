@@ -11,17 +11,17 @@ function AWSCertificationsCard() {
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <Cards title={`AWS SysOps Admin`} certificate={`AWS SysOps Admin`} examcode={`AWS-SOA-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`588`} pdfURL={`AWS-SysOps.pdf`} />
+                              <Cards title={`AWS SysOps Admin`} certificate={`AWS SysOps Admin`} examcode={`AWS-SOA-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`588`} pdfURL={`assets/images/AWSCertification/AWS-SysOps.pdf`} />
                           </div>					 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <Cards title={`AWS SA Associates`} certificate={`AWS SA Associates`} examcode={`AWS-SAA-C01`} tranhrs={`36 Hr`} exmpre={`4 Hr`} price={`605`} pdfURL={`AWS-SolArch.pdf`} />
+                              <Cards title={`AWS SA Associates`} certificate={`AWS SA Associates`} examcode={`AWS-SAA-C01`} tranhrs={`36 Hr`} exmpre={`4 Hr`} price={`605`} pdfURL={`assets/images/AWSCertification/AWS-SolArch.pdf`} />
                           </div>					 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <Cards title={`AWS SA Professional`} certificate={`AWS SA Professional`} examcode={`AWS-SAP-C01`} tranhrs={`42 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`AWS-SolArch.pdf`} />
+                              <Cards title={`AWS SA Professional`} certificate={`AWS SA Professional`} examcode={`AWS-SAP-C01`} tranhrs={`42 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/AWSCertification/AWS-SolArch.pdf`} />
                           </div>					 
                         </div>	
                       </div>  
@@ -29,12 +29,12 @@ function AWSCertificationsCard() {
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <Cards title={`AWS Practitioner`} certificate={`AWS Practitioner`} examcode={`AWS-CP-C01`} tranhrs={`28 Hr`} exmpre={`6 Hr`} price={`$628`} pdfURL={`AWS-SolArch.pdf`} />
+                              <Cards title={`AWS Practitioner`} certificate={`AWS Practitioner`} examcode={`AWS-CP-C01`} tranhrs={`28 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/AWSCertification/AWS-SolArch.pdf`} />
                           </div>					 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <Cards title={`AWS Security Eng`} certificate={`AWS Security Eng`} examcode={`AWS-SCS-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`$628`} pdfURL={`AWS-Security.pdf`} />
+                              <Cards title={`AWS Security Eng`} certificate={`AWS Security Eng`} examcode={`AWS-SCS-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/AWSCertification/AWS-Security.pdf`} />
                           </div>					 
                         </div>	
                         

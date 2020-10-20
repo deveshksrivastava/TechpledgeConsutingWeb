@@ -7,20 +7,21 @@ function DevOpsConsultingRole() {
              <section className="w3l-features-1">
           <div className="features py-4">
                   <div className="container pb-5">
+                  <h4>DevOps Coonsultant Role</h4>
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                          <CardsTranning title={`DevOps Coonsultant Role`} certificate={`DevOps Automation Engineer`} examcode={`TP-DEV-001`} tranhrs={`36 Hr`} exmpre={`6 hr`} price={`588`} pdfURL={`TPCSDevOps.pdf`} />
+                          <CardsTranning title={`DevOps Automation Enginee`} certificate={`DevOps Automation Engineer`} examcode={`TP-DEV-001`} tranhrs={`36 Hr`} exmpre={`6 hr`} price={`588`} pdfURL={`assets/images/DevOps Consultant Role/TPCSDevOps.pdf`} />
                           </div>					 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                          <CardsTranning title={`DevOps Coonsultant Role`} certificate={`Azure DevOps Professional`} examcode={`AZ-400`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`Az-400.pdf`} />
+                          <CardsTranning title={`Azure DevOps Professional`} certificate={`Azure DevOps Professional`} examcode={`AZ-400`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/DevOps Consultant Role/Az-400.pdf`} />
                           </div>					 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <CardsTranning title={`DevOps Coonsultant Role`} certificate={`AWS DevOps Professional`} examcode={`DOP-CO1`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`AWS-DevOps.pdf`} />
+                              <CardsTranning title={`AWS DevOps Professional`} certificate={`AWS DevOps Professional`} examcode={`DOP-CO1`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/DevOps Consultant Role/AWS-DevOps.pdf`} />
                           </div>					 
                         </div>	
                       </div>  
@@ -28,7 +29,7 @@ function DevOpsConsultingRole() {
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
-                              <CardsTranning title={`DevOps Coonsultant Role`} certificate={`Docker Engineer`} examcode={`DCA`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`DCA.pdf`} />
+                              <CardsTranning title={`Docker Engineer`} certificate={`Docker Engineer`} examcode={`DCA`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/DevOps Consultant Role/DCA.pdf`} />
                           </div>					 
                         </div>	
                        
