@@ -125,7 +125,7 @@ function About() {
 				<p className="my-3 head"> The each members of our Managements broad, itself come with more than two decades of industry experience .Our Instructors , who  are not trainers by professions but are veterans and experts from industry but drive with the passion of imparting their knowledge and experience.</p>
 			  </div>
 			<div className="row inner-sec-w3ls-w3pvt-aminfo pt-5 mt-3">
-				<div className="col-lg-2 col-sm-6">
+				<div className="col-lg-2 col-sm-7">
 					<div className="team-grid text-center">
 						<div className="team-img">
 							<img className="img-fluid rounded" src="assets/images/t1.jpg" alt="" />
@@ -152,7 +152,7 @@ function About() {
 						</div>
 					</div>
 				</div>
-				<div className="col-lg-2 col-sm-6 top-tem">
+				<div className="col-lg-2 col-sm-7 top-tem">
 					<div className="team-grid text-center">
 						<div className="team-img">
 							<img className="img-fluid rounded" src="assets/images/t2.jpg" alt="" />
@@ -179,7 +179,7 @@ function About() {
 						</div>
 					</div>
 				</div>
-				<div className="col-lg-2 col-sm-6  mt-sm-0 mt-5">
+				<div className="col-lg-2 col-sm-7  mt-sm-0 mt-5">
 					<div className="team-grid text-center">
 						<div className="team-img">
 							<img className="img-fluid rounded" src="assets/images/t3.jpg" alt="" />
@@ -206,7 +206,7 @@ function About() {
 						</div>
 					</div>
 				</div>
-				<div className="col-lg-2 col-sm-6 top-tem">
+				<div className="col-lg-2 col-sm-7 top-tem">
 					<div className="team-grid text-center">
 						<div className="team-img">
 							<img className="img-fluid rounded" src="assets/images/t4.jpg" alt="" />
@@ -233,7 +233,7 @@ function About() {
 						</div>
 					</div>
 				</div>
-				<div className="col-lg-2 col-sm-6  mt-sm-0 mt-5">
+				<div className="col-lg-2 col-sm-7  mt-sm-0 mt-5">
 					<div className="team-grid text-center">
 						<div className="team-img">
 							<img className="img-fluid rounded" src="assets/images/t5.jpg" alt="" />
@@ -260,6 +260,60 @@ function About() {
 						</div>
 					</div>
 				</div>
+				<div className="col-lg-2 col-sm-7 top-tem">
+					<div className="team-grid text-center">
+						<div className="team-img">
+							<img className="img-fluid rounded" src="assets/images/t6.jpg" alt="" />
+						</div>
+						<div className="team-info">
+							<h4>Berlin Donald</h4>
+							<ul className="d-flex justify-content-center py-3 social-icons">
+								<li className="effect-soc-team1">
+									<a href="#">
+										<span className="fa fa-facebook-f"></span>
+									</a>
+								</li>
+								<li className="effect-soc-team2">
+									<a href="#">
+										<span className="fa fa-twitter"></span>
+									</a>
+								</li>
+								<li className="effect-soc-team3">
+									<a href="#">
+										<span className="fa fa-google-plus"></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				{/* <div className="col-lg-2 col-sm-7  mt-sm-0 mt-5">
+					<div className="team-grid text-center">
+						<div className="team-img">
+							<img className="img-fluid rounded" src="assets/images/t7.jpg" alt="" />
+						</div>
+						<div className="team-info">
+							<h4>Devesh Srivastava</h4>
+							<ul className="d-flex justify-content-center py-3 social-icons">
+								<li className="effect-soc-team1">
+									<a href="#">
+										<span className="fa fa-facebook-f"></span>
+									</a>
+								</li>
+								<li className="effect-soc-team2">
+									<a href="#">
+										<span className="fa fa-twitter"></span>
+									</a>
+								</li>
+								<li className="effect-soc-team3">
+									<a href="#">
+										<span className="fa fa-google-plus"></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div> */}
 			</div>
 		</div>
 	</section>
