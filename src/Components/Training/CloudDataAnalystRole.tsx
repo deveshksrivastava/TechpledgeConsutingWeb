@@ -20,12 +20,12 @@ function CloudDataAnalystRole() {
                           <div className="cwp4-text col-lg-6">
                           <p>
                           TechPledge Job  Based Training is especially curated program where candidate will provide the training on Live Environment and all essential skills like hands on experience of various Analytics Tool, ETL , Data Storage Ststemm which is mostly used by company.. Top Year 2021 Updated Analyst  Level Online Courses help you to reach your goal with 100% Guaranteed
-            TechPledge  Offers Various  levels of Data Analyst Training with Hands-On Live Projects and Certifications for different roles in cloud environments.
+            TechPledge  Offers Various  levels of Data Analyst Training with Hands-On a Live Projects and Certifications for different roles in cloud environments.
 
                           </p>
 
                             <p><b>The Below Certification designed as per unique specialty a person need to prove their credential. </b></p>
-                              {/* <ul className="cont-4">
+                              {/* <ul className="cont-4" >
                                   <li><span className="fa fa-check"></span>Testimonials: Proven Success: 92%.Success in Exam.</li>
                                   <li><span className="fa fa-check"></span>Our Trainer are Veterans  & Experts from Industry. </li>
                                   <li><span className="fa fa-check"></span>Individualized, Customized Traning</li>
