@@ -34,7 +34,7 @@ function CloudArchitectRole() {
                               </ul> */}
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
-                              <img src="assets/images/topic/CloudAdministratorRole.jpg" className="img-fluid" alt="" />
+                              <img src="assets/images/topics/CloudAdministratorRole.jpg" className="img-fluid" alt="" />
                           </div>
                       </div>
                   </div>
