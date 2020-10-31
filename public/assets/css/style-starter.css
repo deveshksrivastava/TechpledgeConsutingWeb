@@ -3209,8 +3209,9 @@ sup {
 }
 
 a {
-	color: darkorange;
-	text-decoration: none;
+	color: #d91818;
+	font-size: 16px;
+	font-weight: bold;
 	background-color: transparent;
 }
 a:hover {
@@ -16855,4 +16856,25 @@ button.owl-next {
 	}
 }
 
+.buttonEnrollNow {
+	background-color: #ff0400;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.divEnrollnow {
+	/* padding-top: .5rem;
+	margin-right: .5rem;
+	
+	width: 100px;
+	height: 20px;
+	background: red; */
+	/* border-radius: 50px / 20px; */
+	text-align: right;
+	text-shadow: x-offset y-offset blur color;
+	-webkit-box-shadow: 2px 3px 10px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 2px 3px 10px rgba(0, 0, 0, .4);
+	box-shadow: 10px 3px 10px rgba(0, 0, 0, .4);
+}
 /*# sourceMappingURL=style-starter.css.map */

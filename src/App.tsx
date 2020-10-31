@@ -17,7 +17,7 @@ import TermsCondition from './Components/TermsCondition';
 import Carrer from './Components/Carrer';
 import Placements from './Components/Placements';
 import AWSCertificationsCard from './Components/Training/AWSCertificationsCard';
-import AzureCloudArchitectRole from './Components/Training/AzureCloudArchitectRole';
+import CloudArchitectRole from './Components/Training/CloudArchitectRole';
 import MicrosoftCertificationsCard from './Components/Training/MicrosoftCertificationsCard';
 import ServerAdministratorRole from './Components/Training/ServerAdministratorRole';
 import DevOpsConsultingRole from './Components/Training/DevOpsConsultingRole';
@@ -29,6 +29,8 @@ import PermanentPositionPlacements from './Components/Placements/PermanentPositi
 import ContractPositionPlacements from './Components/Placements/ContractPositionPlacements';
 import OffshoreHiringPlacements from './Components/Placements/OffshoreHiringPlacements';
 import SoftwareProgramerRole from './Components/Training/SoftwareProgramerRole';
+import GoogleCertificationsCard from './Components/Training/GoogleCertificationsCard';
+
 // import Map from './Map/';
 // import {loadMapApi} from "./utils/GoogleMapsUtils";
 
@@ -70,13 +72,14 @@ function App() {
                   <Route path="/Carrer" exact component={Carrer} />
                   <Route path="/Placements" exact component={Placements} />
                   <Route path="/AWSCertificationsCard" exact component={AWSCertificationsCard} />
-                  <Route path="/AzureCloudArchitectRole" exact component={AzureCloudArchitectRole} />
+                  <Route path="/CloudArchitectRole" exact component={CloudArchitectRole} />
                   <Route path="/CloudAdministratorRole" exact component={CloudAdministratorRole} />
                   <Route path="/CloudDataAnalystRole" exact component={CloudDataAnalystRole} />
                   <Route path="/DevOpsCertificationsCard" exact component={DevOpsCertificationsCard} />
                   <Route path="/DevOpsConsultingRole" exact component={DevOpsConsultingRole} />
                   <Route path="/MicrosoftCertificationsCard" exact component={MicrosoftCertificationsCard} />
                   <Route path="/ServerAdministratorRole" exact component={ServerAdministratorRole} />
+                  <Route path="/GoogleCertificationsCard" exact component={GoogleCertificationsCard} />
 
                   <Route path="/JobAssistance" exact component={JobAssistance} />
                   <Route path="/PermanentPositionPlacements" exact component={PermanentPositionPlacements} />

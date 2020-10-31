@@ -9,7 +9,7 @@ function AzureCloudArchitectRole() {
           <section className="w3l-contact-breadcrum">
             <div className="breadcrum-bg py-sm-5 py-4">
               <div className="container py-lg-3">
-                <h2>Cloud  Certification</h2>
+                <h2>Cloud Architect Role</h2>
                 <p><Link to="/" >Home</Link> / Certification</p>
               </div>
             </div>
@@ -19,28 +19,28 @@ function AzureCloudArchitectRole() {
                   <div className="container py-md-5">
                       <div className="cwp4-two row">
                           <div className="cwp4-text col-lg-6">
-                          <p>TechPledge Certification Based Training is especially curated program where candidate will provide the training on 
-                            Live Environment and all essential skills like hands on experience of various Microsoft Technologies. Top Year 2021 
-                            Updated Microsoft Online Courses help you to reach your goal with 100% Guaranteed
-                          TechPledge  Offers Various  levels of Microsoft  Training with Hands-On Live Projects and Certifications for different 
-                          roles in cloud environments.
+                          <p>
+                          TechPledge Job  Based Training is especially curated program where candidate will provide the training on Live Environment and all essential skills like hands on experience of various Architect tool, Security  tool , Costing tool which is mostly used by company.. Top Year 2021 Updated Architect Level Online Courses help you to reach your goal with 100% Guaranteed
+TechPledge  Offers Various  levels of Solution Architect Training with Hands-On Live Projects and Certifications for different roles in cloud environments
                           </p>
-                          <p><b>The Below Certification designed as per unique specialty a person need to prove their credential.</b></p>
-                              <ul className="cont-4">
+
+                     
+                          <p><b>The Below Certification designed as per unique specialty a person need to prove their credential. </b></p>
+                              {/* <ul className="cont-4">
                                   <li><span className="fa fa-check"></span>Testimonials: Proven Success: 92%.Success in Exam.</li>
                                   <li><span className="fa fa-check"></span>Our Trainer are Veterans  & Experts from Industry. </li>
                                   <li><span className="fa fa-check"></span>Individualized, Customized Traning</li>
                                   <li><span className="fa fa-check"></span>1 on 1 Industry Mentorship</li>
-                              </ul>
+                              </ul> */}
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
-                              <img src="assets/images/g4.jpg" className="img-fluid" alt="" />
+                              <img src="assets/images/topic/CloudArchitect.jpg" className="img-fluid" alt="" />
                           </div>
                       </div>
                   </div>
               </div>
           </section>
-
+        
           
             <section className="w3l-features-1">
           <div className="features py-4">
@@ -50,17 +50,26 @@ function AzureCloudArchitectRole() {
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                               <CardsTranning title={`Azure Cloud Architect`} certificate={`Azure Cloud Architect`} examcode={`AZ-301/303`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`$588`} pdfURL={`assets/images/Cloud Architect/AZ-300.pdf`} />
-                          </div>					 
+                          </div>
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>						 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                             <CardsTranning title={`AWS Cloud Architect`} certificate={`AWS Cloud Architect`} examcode={`SAP-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/Cloud Architect/AWS-SolArch.pdf`} />
-                          </div>					 
+                          </div>
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>						 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                               <CardsTranning title={`Azure Database Architect`} certificate={`Azure Database Architect`} examcode={`MS 70-473`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`705`} pdfURL={`assets/images/Cloud Architect/Azure-SQL.pdf`} />
-                          </div>					 
+                          </div>
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>						 
                         </div>	
                       </div>  
                       <hr />
@@ -68,8 +77,12 @@ function AzureCloudArchitectRole() {
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                               <CardsTranning title={`AWS Cloud Security Architect`} certificate={`AWS Cloud Security Architect`} examcode={`SCS-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`705`} pdfURL={`assets/images/Cloud Architect/AWS-Security.pdf`} />
-                          </div>					 
-                        </div>	
+                          </div>		
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>				 
+                        </div>
+                       	
                      
                       </div>  
                       <hr/>

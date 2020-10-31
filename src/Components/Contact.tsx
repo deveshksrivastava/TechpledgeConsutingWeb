@@ -94,26 +94,26 @@ function Contact() {
                                         <div className="top-inputs d-grid">
                                             <input type="text" placeholder="Name" name="w3lName" id="w3lName" aria-required />
                                             <input type="email" name="email" placeholder="Email" id="w3lSender" aria-required />
-                                            <select name="Country" placeholder="Country" id="Country"  >
-                                                <option value="USA">USA</option>
-                                                <option value="Canada">Canada</option>
-                                                <option value="India">India</option>
-                                                <option value="UK">UK</option>
-                                                <option value="Australia">Australia</option>
-                                                <option value="Nigeria">Nigeria</option>
-                                                <option value="Tanzania">Tanzania</option>
-                                                <option value="Singapore">Singapore</option>
-                                                <option value="Saudi">Saudi</option>
-                                                <option value="UAE">UAE</option>
-                                                <option value="Oman">Oman</option>
-                                                <option value="Georgia">Georgia</option>
-                                                <option value="Others">Others</option>
-                                        </select>
+                                                {/* <select name="Country" placeholder="Country" id="Country"  >
+                                                    <option value="USA">USA</option>
+                                                    <option value="Canada">Canada</option>
+                                                    <option value="India">India</option>
+                                                    <option value="UK">UK</option>
+                                                    <option value="Australia">Australia</option>
+                                                    <option value="Nigeria">Nigeria</option>
+                                                    <option value="Tanzania">Tanzania</option>
+                                                    <option value="Singapore">Singapore</option>
+                                                    <option value="Saudi">Saudi</option>
+                                                    <option value="UAE">UAE</option>
+                                                    <option value="Oman">Oman</option>
+                                                    <option value="Georgia">Georgia</option>
+                                                    <option value="Others">Others</option>
+                                            </select> */}
                                         </div>
 
            
                                         
-                                        <select name="Course" placeholder="Course" id="Course"  className="form-control-lg  d-grid">
+                                        {/* <select name="Course" placeholder="Course" id="Course"  className="form-control-lg  d-grid">
                                                 <option value="Course">Course</option>
                                                 <option value="AWS">AWS</option>
                                                 <option value="AZURE">AZURE</option>
@@ -122,7 +122,7 @@ function Contact() {
                                                 <option value="Language">Language</option>
                                                 <option value="Database">Database</option>
                                                 <option value="Others">Others</option>
-                                        </select>
+                                        </select> */}
                                         <input type="text" placeholder="Phone Number" name="w3lName" id="w3lName" aria-required />
                                         <textarea placeholder="Message" name="w3lMessage" id="w3lMessage" aria-required></textarea>
                                         <div className="text-right">

@@ -33,8 +33,8 @@ function Header() {
                         <a className="dropdown-toggle" data-toggle="dropdown" href="#google.com">&nbsp;&nbsp;&nbsp;Training  </a>
                         <ul className="dropdown-menu" >
                             <li><Link className="nav-link" to="/CloudAdministratorRole" >Cloud Administrator Role</Link></li>
-                            <li><Link className="nav-link" to="/AzureCloudArchitectRole" >Cloud Architect</Link></li>
-                            <li><Link className="nav-link" to="/CloudDataAnalystRole" >Cloud Data Analyst</Link></li>
+                            <li><Link className="nav-link" to="/CloudArchitectRole" >Cloud Architect Role</Link></li>
+                            <li><Link className="nav-link" to="/CloudDataAnalystRole" >Cloud Data Analyst Role</Link></li>
                             <li><Link className="nav-link" to="/DevOpsConsultingRole" >DevOps Consulting Role</Link></li>
                             <li><Link className="nav-link" to="/ServerAdministratorRole" >Server Administrator Role</Link></li>
                             <li><Link className="nav-link" to="/SoftwareProgramerRole" >Software Programer Role</Link></li>
@@ -45,7 +45,8 @@ function Header() {
                         <ul className="dropdown-menu" >
                             <li><Link className="nav-link" to="/MicrosoftCertificationsCard" >Microsoft Certifications</Link></li>
                             <li><Link className="nav-link" to="/AWSCertificationsCard" >AWS Certifications</Link></li>
-                            <li><Link className="nav-link" to="/DevOpsCertificationsCard" >DevOpsCertifications</Link></li>
+                            <li><Link className="nav-link" to="/DevOpsCertificationsCard" >DevOps Certifications</Link></li>
+                            <li><Link className="nav-link" to="/GoogleCertificationsCard" >Google Certifications</Link></li>
                         </ul>
                     </li>
                    
@@ -86,3 +87,4 @@ function Header() {
 }
 
 export default Header
+

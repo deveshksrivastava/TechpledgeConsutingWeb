@@ -31,7 +31,7 @@ function AWSCertificationsCard() {
                               </ul>
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
-                              <img src="assets/images/g4.jpg" className="img-fluid" alt="" />
+                              <img src="assets/images/topic/AWs Cwertfication.jpg" className="img-fluid" alt="" />
                           </div>
                       </div>
                   </div>
@@ -46,17 +46,26 @@ function AWSCertificationsCard() {
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                               <Cards title={`AWS SysOps Admin`} certificate={`AWS SysOps Admin`} examcode={`AWS-SOA-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`588`} pdfURL={`assets/images/AWSCertification/AWS-SysOps.pdf`} />
-                          </div>					 
+                          </div>
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>						 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                               <Cards title={`AWS SA Associates`} certificate={`AWS SA Associates`} examcode={`AWS-SAA-C01`} tranhrs={`36 Hr`} exmpre={`4 Hr`} price={`605`} pdfURL={`assets/images/AWSCertification/AWS-SolArch.pdf`} />
-                          </div>					 
+                          </div>
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>						 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                               <Cards title={`AWS SA Professional`} certificate={`AWS SA Professional`} examcode={`AWS-SAP-C01`} tranhrs={`42 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/AWSCertification/AWS-SolArch.pdf`} />
-                          </div>					 
+                          </div>
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>						 
                         </div>	
                       </div>  
                       <hr />
@@ -64,16 +73,28 @@ function AWSCertificationsCard() {
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                               <Cards title={`AWS Practitioner`} certificate={`AWS Practitioner`} examcode={`AWS-CP-C01`} tranhrs={`28 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/AWSCertification/AWS-SolArch.pdf`} />
-                          </div>					 
+                          </div>
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>						 
                         </div>	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
                               <Cards title={`AWS Security Eng`} certificate={`AWS Security Eng`} examcode={`AWS-SCS-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`628`} pdfURL={`assets/images/AWSCertification/AWS-Security.pdf`} />
-                          </div>					 
+                          </div>
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>						 
                         </div>	
-                        
+                        <div className="float-lt feature-gd col-lg-4 col-sm-12">	
+                          <div className="icon-info">
+                              <Cards title={`AWS Developer`} certificate={`AWS Developer`} examcode={`SDA-C01`} tranhrs={`36 Hr`} exmpre={`6 Hr`} price={`728`} pdfURL={`assets/images/AWSCertification/AWS-Security.pdf`} />
+                          </div>
+                          <div className="divEnrollnow" >
+                            <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
+                          </div>						 
+                        </div>	
                       </div>  
-                      <hr/>
                      <hr/>
                       <div id="content-with-photo4-block" > 
                           <div className="container py-md-5">
