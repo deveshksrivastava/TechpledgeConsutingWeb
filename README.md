@@ -48,7 +48,8 @@ $ heroku git:remote -a techpledge
 
 C:\Sites\TYPE SCRIPT\techpledge-tsx>git push heroku origin
 error: src refspec origin does not match any
-error: failed to push some refs to 'https://git.heroku.com/tranquil-retreat-00047.git'
+error: failed to push some refs ty
+o 'https://git.heroku.com/tranquil-retreat-00047.git'
 
 git add .
 git commit -m "First commit"
