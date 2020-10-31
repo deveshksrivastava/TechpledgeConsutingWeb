@@ -31,7 +31,7 @@ function GoogleCertificationsCard() {
                               </ul>
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
-                              <img src="assets/images/topic/Google Cwertfication.jpg" className="img-fluid" alt="" />
+                              <img src="assets/images/topic/GoogleCwertfication.jpg" className="img-fluid" alt="" />
                           </div>
                       </div>
                   </div>
