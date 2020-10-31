@@ -1,8 +1,17 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 function ContractPositionPlacements() {
     return (
         <div>
+        <section className="w3l-contact-breadcrum">
+            <div className="breadcrum-bg py-sm-5 py-4">
+              <div className="container py-lg-3">
+                <h2>Contract Position  </h2>
+                <p><Link to="/" >Home</Link> / Contract Position</p>
+              </div>
+            </div>
+          </section>
             <section className="w3l-features-1">
                 <div className="features py-12">
                     <div className="container pb-5">

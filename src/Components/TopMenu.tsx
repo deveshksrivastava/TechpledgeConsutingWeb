@@ -16,17 +16,19 @@ function TopMenu() {
                                         <li id="lang-switcher">
                                             <a className="dropdown-toggle" data-toggle="dropdown" href="#">Country</a>
                                             <ul className="dropdown-menu" >
-
-                                                <li><Link to="contact" >&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;USA</Link></li>
-                                                <li><Link to="contact" >Canada</Link></li>
-                                                <li><Link to="contact" >India</Link></li>
-                                                <li><Link to="contact" >UK</Link></li>
-                                                <li><Link to="contact" >Australia</Link></li>
-                                                <li><Link to="contact" >Nigeria</Link></li>
-                                                <li><Link to="contact" >Nigeria</Link></li>
-                                                <li><Link to="contact" >Saudi</Link></li>
-                                                <li><Link to="contact" >UAE</Link></li>
-
+                                                <li><Link to="contact">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;USA</Link></li>
+                                                <li><Link to="contact">Canada</Link></li>
+                                                <li><Link to="contact">India</Link></li>
+                                                <li><Link to="contact">UK</Link></li>
+                                                <li><Link to="contact">Australia</Link></li>
+                                                <li><Link to="contact">Nigeria</Link></li>
+                                                <li><Link to="contact">Tanzania</Link></li>
+                                                <li><Link to="contact">Singapore</Link></li>
+                                                <li><Link to="contact">Saudi</Link></li>
+                                                <li><Link to="contact">UAE</Link></li>
+                                                <li><Link to="contact">Oman</Link></li>
+                                                <li><Link to="contact">Georgia</Link></li>
+                                                <li><Link to="contact">Others</Link></li>
                                             </ul>
                                         </li>
                                 </div>
