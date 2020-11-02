@@ -16877,4 +16877,8 @@ button.owl-next {
 	-moz-box-shadow: 2px 3px 10px rgba(0, 0, 0, .4);
 	box-shadow: 10px 3px 10px rgba(0, 0, 0, .4);
 }
+
+.divServicesCenter {
+	text-align: center;
+}
 /*# sourceMappingURL=style-starter.css.map */
