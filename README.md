@@ -56,3 +56,50 @@ git commit -m "First commit"
 git push heroku HEAD:master
 
 Parth@123
+
+__________________
+npx react-native init AwesomeProject
+npx react-native init AwesomeProject --version X.XX.X
+npx react-native init AwesomeTSProject --template react-native-template-typescript
+
+
+Using a physical device
+If you have a physical Android device, you can use it for development in place of an AVD by plugging it in to your computer using a USB cable and following the instructions here.
+
+Using a virtual device
+If you use Android Studio to open ./AwesomeProject/android, you can see the list of available Android Virtual Devices (AVDs) by opening the "AVD Manager" from within Android Studio. Look for an icon that looks like this:
+
+Running your React Native application
+
+Step 1: Start Metro
+First, you will need to start Metro, the JavaScript bundler that ships with React Native.
+RUN - //starts Metro Bundler.Metro is a lot like webpack—for React Native apps.Bundling isn't the same as compiling, but it can help improve startup performance and translate some platform-specific JavaScript into more JavaScript.
+$npx react-native start 
+
+Step 2: Start your application
+Let Metro Bundler run in its own terminal. Open a new terminal inside your React Native project folder. 
+Run the following:
+
+npx react-native run-android
+
+If everything is set up correctly, you should see your new app running in your Android emulator shortly.
+npx react-native run-android is one way to run your app - you can also run it directly from within Android Studio.
+
+Modifying your app
+Now that you have successfully run the app, let's modify it.
+
+Open App.js in your text editor of choice and edit some lines.
+Press the R key twice or select Reload from the Developer Menu (Ctrl + M) to see your changes!
+That's it!
+Congratulations! You've successfully run and modified your first React Native app.
+
+
+Chat bold
+
+https://dashboard.tawk.to/#/monitoring  moniotr te chat
+
+https://coursack.com/
+
+https://www.tawk.to/?utm_source=visitor-widget&utm_medium=link&utm_campaign=referral&utm_term=5f8a8278fd4ff5477ea6a212
+
+__________________
