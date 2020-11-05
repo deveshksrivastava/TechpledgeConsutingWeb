@@ -103,3 +103,147 @@ https://coursack.com/
 https://www.tawk.to/?utm_source=visitor-widget&utm_medium=link&utm_campaign=referral&utm_term=5f8a8278fd4ff5477ea6a212
 
 __________________
+
+
+Microsoft Windows [Version 10.0.18362.1139]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git init
+Reinitialized existing Git repository in C:/Sites/TYPE SCRIPT/techpledge-tsx/.git/
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git add .
+warning: LF will be replaced by CRLF in public/index.html.
+The file will have its original line endings in your working directory
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git push all
+fatal: 'all' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git push --all
+Enumerating objects: 88, done.
+Counting objects: 100% (88/88), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (68/68), done.
+Writing objects: 100% (68/68), 124.40 KiB | 3.55 MiB/s, done.
+Total 68 (delta 52), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (52/52), completed with 19 local objects.
+To https://github.com/deveshprojectwork/tpcs.git
+   aaf8ca1..1c9cbe9  main -> main
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git commit -m "adding new functionality"
+[main d0f57f0] adding new functionality
+ 2 files changed, 11911 insertions(+)
+ create mode 100644 yarn.lock
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git push --all
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 192.75 KiB | 2.68 MiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/deveshprojectwork/tpcs.git
+   1c9cbe9..d0f57f0  main -> main
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git branch
+* main
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git branch development
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git branch
+  development
+* main
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git checkout development
+Switched to branch 'development'
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git intit
+git: 'intit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git init
+Reinitialized existing Git repository in C:/Sites/TYPE SCRIPT/techpledge-tsx/.git/
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git add .
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git commit -m "done2
+[development d730f5d] done2
+ 1 file changed, 48 insertions(+), 1 deletion(-)
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git commit -m "done"
+On branch development
+nothing to commit, working tree clean
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git bracnh
+git: 'bracnh' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git branch
+* development
+  main
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git push --add
+error: unknown option `add'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=(check|on-demand|no)]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>git push --all
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.10 KiB | 718.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'development' on GitHub by visiting:
+remote:      https://github.com/deveshprojectwork/tpcs/pull/new/development
+remote:
+To https://github.com/deveshprojectwork/tpcs.git
+ * [new branch]      development -> development
+
+C:\Sites\TYPE SCRIPT\techpledge-tsx>
