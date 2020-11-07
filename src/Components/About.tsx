@@ -24,10 +24,7 @@ function About() {
 								<p>
 									TechPledge Consulting Services Pvt Ltd has been Founded in year 2015 as a Business, Training & IT consulting firm and incorpoarted in the year 2016, under the dymanic leadership of our CEO Mrs. Jaya Shanker. We are helping businesses accelerate to achieve their maximum and build valuable relationships across global networks. Our innovative technology, customized training and quality consulting simplifies complexities and gives freedom to facilitate and implement a successful business process.
 								</p>
-								<p>
-										We at TechPledge, understand that the whole idea is not about the choice between using and not using technology  "The challenge is to use it rightly". <br /><br />
-										As technology has advanced, so too has training and TechPledge is always on top of it. Knowing about the tools and trends in training technology is not just our job. It’s our passion. We love to learn about new technology, and we love talking about how you can use it. We do all the technology you need so you can focus more on your business.
-								</p>
+							
 							
 								<ul className="cont-4">
 									<li><span className="fa fa-check"></span>Testimonials: Proven Success: 92%.Success in Exam.</li>
@@ -38,6 +35,11 @@ function About() {
 							</div>
 							<div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
 								<img src="assets/images/g4.jpg" className="img-fluid" alt="" />
+								<br /><br />
+								<p>
+										We at TechPledge, understand that the whole idea is not about the choice between using and not using technology  "The challenge is to use it rightly". <br /><br />
+										As technology has advanced, so too has training and TechPledge is always on top of it. Knowing about the tools and trends in training technology is not just our job. It’s our passion. We love to learn about new technology, and we love talking about how you can use it. We do all the technology you need so you can focus more on your business.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -57,10 +59,8 @@ function About() {
 									Our Empanel Industry leaders Working with you to Lay out a Career Path and help you adhere with your timelines and goals.We also provide Job Placement assistance with our TechPledge Job Assist program.
 									</p>
 								</div>
-								
 							</div>	
 							<div className="float-mid feature-gd col-lg-4 col-sm-6 mt-sm-0 mt-4">	
-								
 								<div className="icon-info">
 									<h5>JOB BASED TRAINING</h5>
 									<p>
@@ -70,7 +70,6 @@ function About() {
 								</div>
 						</div> 
 							<div className="float-rt feature-gd col-lg-4 col-sm-6 mt-lg-0 mt-4">	
-								
 								<div className="icon-info">
 									<h5>CERTIFICATION</h5>
 									<p>
@@ -78,7 +77,6 @@ function About() {
 									</p>
 								</div>
 						</div>	 
-							
 					</div>  
 					</div>
 				</div>
@@ -90,7 +88,6 @@ function About() {
 							<div className="heading text-center mx-auto">
 								<h3 className="head">Why Choose TechPledge As Your Learning Partner</h3>
 								<p className="my-3 head"> TechPledge Consulting is not like traditional training institute who's responsibility only limited to delivery the Syllabus and not like Aggregators who’s connect you with contracted or freelance trainer , we are the group of professional who  committed to give right direction to career and go out of the box to enable you to deliver your professional goal.</p>
-								
 							</div>
 							<div className="middle-section row mt-5 pt-3">
 								<div className="three-grids-columns col-lg-3 col-sm-6 text-center">
@@ -132,23 +129,6 @@ function About() {
 									</div>
 									<div className="team-info">
 										<h4>Shruti Sinha</h4>
-										<ul className="d-flex justify-content-center py-3 social-icons">
-											<li className="effect-soc-team1">
-												<a href="#">
-													<span className="fa fa-facebook-f"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team2">
-												<a href="#">
-													<span className="fa fa-twitter"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team3">
-												<a href="#">
-													<span className="fa fa-google-plus"></span>
-												</a>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
@@ -159,7 +139,7 @@ function About() {
 									</div>
 									<div className="team-info">
 										<h4>Christian Anyanwu</h4>
-										<ul className="d-flex justify-content-center py-3 social-icons">
+										{/* <ul className="d-flex justify-content-center py-3 social-icons">
 											<li className="effect-soc-team1">
 												<a href="#">
 													<span className="fa fa-facebook-f"></span>
@@ -175,7 +155,7 @@ function About() {
 													<span className="fa fa-google-plus"></span>
 												</a>
 											</li>
-										</ul>
+										</ul> */}
 									</div>
 								</div>
 							</div>
@@ -186,23 +166,6 @@ function About() {
 									</div>
 									<div className="team-info">
 										<h4>Poornima Arun</h4>
-										<ul className="d-flex justify-content-center py-3 social-icons">
-											<li className="effect-soc-team1">
-												<a href="#">
-													<span className="fa fa-facebook-f"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team2">
-												<a href="#">
-													<span className="fa fa-twitter"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team3">
-												<a href="#">
-													<span className="fa fa-google-plus"></span>
-												</a>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
@@ -213,23 +176,6 @@ function About() {
 									</div>
 									<div className="team-info">
 										<h4>Bipeen Sinha</h4>
-										<ul className="d-flex justify-content-center py-3 social-icons">
-											<li className="effect-soc-team1">
-												<a href="#">
-													<span className="fa fa-facebook-f"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team2">
-												<a href="#">
-													<span className="fa fa-twitter"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team3">
-												<a href="#">
-													<span className="fa fa-google-plus"></span>
-												</a>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
@@ -240,23 +186,6 @@ function About() {
 									</div>
 									<div className="team-info">
 										<h4>Aditi Srivastava</h4>
-										<ul className="d-flex justify-content-center py-3 social-icons">
-											<li className="effect-soc-team1">
-												<a href="#">
-													<span className="fa fa-facebook-f"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team2">
-												<a href="#">
-													<span className="fa fa-twitter"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team3">
-												<a href="#">
-													<span className="fa fa-google-plus"></span>
-												</a>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
@@ -267,53 +196,75 @@ function About() {
 									</div>
 									<div className="team-info">
 										<h4>Berlin Donald</h4>
-										<ul className="d-flex justify-content-center py-3 social-icons">
-											<li className="effect-soc-team1">
-												<a href="#">
-													<span className="fa fa-facebook-f"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team2">
-												<a href="#">
-													<span className="fa fa-twitter"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team3">
-												<a href="#">
-													<span className="fa fa-google-plus"></span>
-												</a>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
-							{/* <div className="col-lg-2 col-sm-7  mt-sm-0 mt-5">
+							<div className="col-lg-2 col-sm-7 top-tem">
 								<div className="team-grid text-center">
 									<div className="team-img">
-										<img className="img-fluid rounded" src="assets/images/t7.jpg" alt="" />
+										<img className="img-fluid rounded" src="assets/images/LorenMind.jpg" alt="" />
 									</div>
 									<div className="team-info">
-										<h4>Devesh Srivastava</h4>
-										<ul className="d-flex justify-content-center py-3 social-icons">
-											<li className="effect-soc-team1">
-												<a href="#">
-													<span className="fa fa-facebook-f"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team2">
-												<a href="#">
-													<span className="fa fa-twitter"></span>
-												</a>
-											</li>
-											<li className="effect-soc-team3">
-												<a href="#">
-													<span className="fa fa-google-plus"></span>
-												</a>
-											</li>
-										</ul>
+										<h4>Loren Mind</h4>
 									</div>
 								</div>
-							</div> */}
+							</div>
+
+							<div className="col-lg-2 col-sm-7 top-tem">
+								<div className="team-grid text-center">
+									<div className="team-img">
+									</div>
+									<div className="team-info">
+										<h4></h4>
+									</div>
+								</div>
+							</div>
+
+							<div className="col-lg-2 col-sm-7  mt-sm-0 mt-5">
+								<div className="team-grid text-center">
+									<div className="team-img">
+											<img className="img-fluid rounded" src="assets/images/devesh.jpg" alt="" />
+									</div>
+									<div className="team-info">
+									<h4>Devesh Srivastava</h4>
+									</div>
+								</div>
+							</div>
+
+							<div className="col-lg-2 col-sm-7 top-tem">
+								<div className="team-grid text-center">
+									<div className="team-img">
+								
+									</div>
+									<div className="team-info">
+										<h4></h4>
+									</div>
+								</div>
+							</div>
+
+
+							<div className="col-lg-2 col-sm-7 top-tem">
+								<div className="team-grid text-center">
+									<div className="team-img">
+										<img className="img-fluid rounded" src="assets/images/WilliemBob.jpg" alt="" />
+									</div>
+									<div className="team-info">
+										<h4>Williem Bob</h4>
+									</div>
+								</div>
+							</div>
+
+							<div className="col-lg-2 col-sm-7 top-tem">
+								<div className="team-grid text-center">
+									<div className="team-img">
+									
+									</div>
+									<div className="team-info">
+										<h4></h4>
+									</div>
+								</div>
+							</div>
+							
 						</div>
 					</div>
 				</section>

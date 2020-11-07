@@ -9,24 +9,28 @@ function Form12() {
                         <div className="container py-md-3">
                             <div className="grid grid-column-2 py-md-5">
                                     
-                                <div className="column1">
-                                    <h4 className="tagline">Find your course</h4>
-                                    <p>Fill in below form to find your courses</p>
-                                        <form action="/" method="Get">
-                                            <div className="">
-                                                <input type="text" name="name" className="form-input" placeholder="Course Name"/>
-                                            </div>
-                                            <div className="">
-                                                <select id="sel1">
-                                                    <option>Category</option>
-                                                    <option>Computer</option>
-                                                    <option>Science</option>
-                                                    <option>History</option>
-                                                    <option>Economics</option>
-                                                </select>
-                                            </div>
-                                            <button type="submit" className="btn btn-secondary btn-theme2">Submit</button>
-                                        </form>
+                                    <div className="column1">
+                                        <h4 className="tagline">Find your course</h4>
+                                        <p>Fill in below form to find your courses</p>
+                                            <form action="/" method="Get">
+                                                <div className="">
+                                                    <input type="text" name="name" className="form-input" placeholder="Course Name"/>
+                                                </div>
+                                                <div className="" >
+                                                    <select id="sel1" placeholder="Category">
+                                                        <option>Category</option>
+                                                        <option>Azure</option>
+                                                        <option>AWS</option>
+                                                        <option>GCP</option>
+                                                        <option>DevOps</option>
+                                                        <option>MCSE</option>
+                                                        <option>RHCE</option>
+                                                        <option>DBA</option>
+                                                        <option>Java    </option>
+                                                    </select>
+                                                </div>
+                                                <button type="submit" className="btn btn-secondary btn-theme2">Submit</button>
+                                            </form>
                                     </div>
                                     <div className="column2">
                                     <div className="row">
@@ -77,6 +81,14 @@ function Form12() {
                                                 {/* <span className="fa fa-mouse-pointer"></span> */}
                                                 <p>Java</p>
                                             </div></a>
+                                        </div>
+                                        <br/> <br/>
+                                        <div className="paypalCenter">
+                                            <div id="smart-button-container" className="paypal col-md-12 col-sm-12 col-12 mt-4">
+                                                    <div>
+                                                        <div id="paypal-button-container"></div>
+                                                    </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

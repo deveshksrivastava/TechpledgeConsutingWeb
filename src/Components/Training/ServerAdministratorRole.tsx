@@ -34,6 +34,7 @@ function ServerAdministratorRole() {
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
                               <img src="assets/images/g4.jpg" className="img-fluid" alt="" />
+
                           </div>
                       </div>
                   </div>
@@ -69,6 +70,7 @@ function ServerAdministratorRole() {
                           </div>					 
                         </div>	
                       </div>  
+              
                       <hr />
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	

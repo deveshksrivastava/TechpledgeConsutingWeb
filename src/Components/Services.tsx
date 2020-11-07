@@ -38,7 +38,8 @@ function Services() {
                                 </p>
                             </div>
                             <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
-                                <img src="assets/images/g4.jpg" className="img-fluid" alt="" />
+                                <br />
+                                <img src="assets/images/s4.jpg" className="img-fluid" alt="" />
                             </div>
                         </div>
                     </div>
@@ -129,7 +130,7 @@ function Services() {
             <section className="teams text-center py-5" id="team">
                     <div className="container py-xl-5 py-lg-3">
                         <div className="heading text-center mx-auto">
-                            <h3 className="head">Our Esteemd Constomer</h3>
+                            <h3 className="head">Our Esteemed  Customer</h3>
                             <p className="my-3 head"> </p>
                         </div>
                         <div className="row inner-sec-w3ls-w3pvt-aminfo pt-5 mt-3">
@@ -168,22 +169,60 @@ function Services() {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="col-lg-2 col-sm-7 top-tem">
+
+
+
+                            <div className="col-lg-2 col-sm-7 top-tem">
                                 <div className="team-grid text-center">
                                     <div className="team-img">
-                                        <img className="img-fluid rounded" src="assets/images/t6.jpg" alt="" />
+                                        <img className="img-fluid rounded" src="assets/images/munjal-auto.jpg" alt="" />
                                     </div>
                                     
                                 </div>
-                            </div> */}
-                            {/* <div className="col-lg-2 col-sm-7  mt-sm-0 mt-5">
+                            </div> 
+                            <div className="col-lg-2 col-sm-7  mt-sm-0 mt-5">
                                 <div className="team-grid text-center">
                                     <div className="team-img">
-                                        <img className="img-fluid rounded" src="assets/images/t7.jpg" alt="" />
+                                        <img className="img-fluid rounded" src="assets/images/biocon.jpg" alt="" />
                                     </div>
                                    
                                 </div>
-                            </div> */}
+                            </div>
+
+                            <div className="col-lg-2 col-sm-5 top-tem">
+                                <div className="team-grid text-center">
+                                    <div className="team-img">
+                                        {/* <img className="img-fluid rounded" src="assets/images/dainikhaskar.png" alt="" /> */}
+                                    </div>
+                                   
+                                </div>
+                            </div>
+
+                            <div className="col-lg-2 col-sm-5 top-tem">
+                                <div className="team-grid text-center">
+                                    <div className="team-img">
+                                        <img className="img-fluid rounded" src="assets/images/dainikhaskar.png" alt="" />
+                                    </div>
+                                   
+                                </div>
+                            </div>
+
+                            <div className="col-lg-2 col-sm-7  mt-sm-0 mt-5">
+                                <div className="team-grid text-center">
+                                    <div className="team-img">
+                                        {/* <img className="img-fluid rounded" src="assets/images/Dainik-Jagran.jpg" alt="" /> */}
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-sm-7  mt-sm-0 mt-5">
+                                <div className="team-grid text-center">
+                                    <div className="team-img">
+                                        <img className="img-fluid rounded" src="assets/images/Dainik-Jagran.jpg" alt="" />
+                                    </div>
+                                   
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>

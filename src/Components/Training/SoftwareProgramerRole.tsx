@@ -33,6 +33,7 @@ function SoftwareProgramerRole() {
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
                               <img src="assets/images/topics/programmerRole.jpg" className="img-fluid" alt="" />
+
                           </div>
                       </div>
                   </div>
@@ -68,7 +69,8 @@ function SoftwareProgramerRole() {
                           </div>					 
                         </div>	
                       </div>  
-                      <hr />
+                      <hr />                    
+                    
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">

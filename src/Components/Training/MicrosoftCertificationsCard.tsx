@@ -3,8 +3,12 @@ import Cards from '../Cards';
 import {Link} from "react-router-dom"
 
 function MicrosoftCertificationsCard() {
+  // const mapStyles = {
+  //   text-center: true
+  // };
     return (
         <div>
+
           <section className="w3l-contact-breadcrum">
             <div className="breadcrum-bg py-sm-5 py-4">
               <div className="container py-lg-3">
@@ -34,15 +38,15 @@ function MicrosoftCertificationsCard() {
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
                               <img src="assets/images/topics/MicrosoftCertification.png" className="img-fluid" alt="" />
+                              <br/>
+
                           </div>
                       </div>
                   </div>
               </div>
           </section>
           <section>
-            <div>
-   
-            </div>
+
           </section>
              <section className="w3l-features-1">
           <div className="features py-4">
@@ -73,7 +77,15 @@ function MicrosoftCertificationsCard() {
                             <button type="button" className="btn buttonEnrollNow">Enroll Now</button>
                           </div>						 
                         </div>	
-                      </div>  
+                      </div> 
+                      <hr />
+                      <div id="smart-button-container" className="paypal">
+                        <div>
+                          <div id="paypal-button-container"></div>
+                        </div>
+                      </div>
+                      <hr />
+           
                       <hr />
                       <h4>Microsoft Platform Certification</h4>
                       <div className="fea-gd-vv row ">	
@@ -102,7 +114,8 @@ function MicrosoftCertificationsCard() {
                           </div>						 
                         </div>	
                       </div>  
-                      <hr/>
+
+                    
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">

@@ -7,6 +7,8 @@ function Contact() {
         document.documentElement.scrollTop = 0;
     }
 
+    
+
     const mapStyles = {
         frameborder:0,
         allowfullscreen:""

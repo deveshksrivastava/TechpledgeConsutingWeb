@@ -32,6 +32,7 @@ function GoogleCertificationsCard() {
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
                               <img src="assets/images/topics/GoogleCwertfication.jpg" className="img-fluid" alt="" />
+
                           </div>
                       </div>
                   </div>
@@ -69,6 +70,7 @@ function GoogleCertificationsCard() {
                         </div>	
                       </div>  
                       <hr />
+                   
                       <div id="content-with-photo4-block" > 
                           <div className="container py-md-5">
                               <div className="cwp4-two row">

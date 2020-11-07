@@ -69,6 +69,7 @@ function AWSCertificationsCard() {
                         </div>	
                       </div>  
                       <hr />
+                     
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">

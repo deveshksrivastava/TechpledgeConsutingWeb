@@ -32,6 +32,10 @@ function DevOpsConsultingRole() {
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
                               <img src="assets/images/topics/DevOpscertification.jpg" className="img-fluid" alt="" />
+                              <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
+                              <img src="assets/images/topics/DevOpscertification.jpg" className="img-fluid" alt="" />
+
+                          </div>
                           </div>
                       </div>
                   </div>
@@ -69,6 +73,7 @@ function DevOpsConsultingRole() {
                         </div>	
                       </div>  
                       <hr />
+                      
                       <div className="fea-gd-vv row ">	
                         <div className="float-lt feature-gd col-lg-4 col-sm-12">	
                           <div className="icon-info">
