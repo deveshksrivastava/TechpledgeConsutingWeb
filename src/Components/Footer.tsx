@@ -58,7 +58,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className="d-grid grid-col-2 bottom-copies">
-                            <p className="copy-footer-29">© 2020. All rights reserved | Designed by <a href="Devesh Srivastava">@TechDev</a></p>
+                            <p className="copy-footer-29">© 2020. All rights reserved techpledge consulting services</p>
                             <ul className="list-btm-29">
                                     <li><a href="#link">Privacy policy</a></li>
                                     <li><a href="#link">Terms of service</a></li>

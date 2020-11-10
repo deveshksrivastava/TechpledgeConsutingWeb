@@ -45,7 +45,7 @@ function Contact() {
                                             <p><img src="assets/images/indiaflag.png" height="60px" width="80px" className="img-responsive" alt=""/></p>
                                             <h4>Address:</h4>
                                             <p className="contact-text-sub">
-                                                    assets/images/topics/ 1st Floor, Gopal Krishna Complex, #45/3, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025
+                                            TechPledge Consulting Service Pvt. LTD 1st Floor, Gopal Krishna Complex, #45/3, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025
                                             </p>
                                             
                                             <br />
