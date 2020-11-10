@@ -33,8 +33,7 @@ function ServerAdministratorRole() {
                               </ul> */}
                           </div>
                           <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
-                              <img src="assets/images/g4.jpg" className="img-fluid" alt="" />
-
+                              <img src="assets/images/y1.jpg" className="img-fluid" alt="" />
                           </div>
                       </div>
                   </div>

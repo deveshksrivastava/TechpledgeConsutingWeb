@@ -36,7 +36,7 @@ function ContractPositionPlacements() {
                                     East.</p>
 							</div>
 							<div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
-								<img src="assets/images/s9.jpg" className="img-fluid" alt="" />
+								<img src="assets/images/x3.png" className="img-fluid" alt="" />
                                 <br />
                                 <br />
                                 {/* <p>TechPledge Job Assist Program is an additional subscription based services where candidate get complete 

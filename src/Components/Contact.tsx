@@ -36,15 +36,31 @@ function Contact() {
                                     <div className="cont-subs">
                                         <div className="cont-add">
                                             
+
+                                      
                                         <div className="cont-add-rgt">
+                                            <div className="cont-add-lft">
+                                                <span className="fa fa-map-marker" aria-hidden="true"></span>
+                                            </div>
                                             <p><img src="assets/images/indiaflag.png" height="60px" width="80px" className="img-responsive" alt=""/></p>
                                             <h4>Address:</h4>
                                             <p className="contact-text-sub">
-                                                    TechPledge Consulting Service Pvt Ltd, 1st Floor, Gopal Krishna Complex, #45/3, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025</p>
+                                                    assets/images/topics/ 1st Floor, Gopal Krishna Complex, #45/3, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025
+                                            </p>
+                                            
+                                            <br />
+                                            <hr></hr>
+                                            <div className="cont-add-lft">
+                                                <span className="fa fa-map-marker" aria-hidden="true"></span>
+                                            </div>
+                                            <p><img src="assets/images/american-flag.png" height="60px" width="80px" className="img-responsive" alt=""/></p>
+                                            <h4>Address:</h4>
+                                            <p className="contact-text-sub">
+                                                TechPledge Consulting Service LLC, 9550 forest lane Dallas TX 75243 suite 462, Dallas Texas, Zip Code 75243, +19294945455
+                                            </p>
+                                         
                                         </div>
-                                        <div className="cont-add-lft">
-                                            <span className="fa fa-map-marker" aria-hidden="true"></span>
-                                    </div>
+                                      
                                     </div>
                                         <div className="cont-add add-2">
                                             
@@ -91,8 +107,8 @@ function Contact() {
                                 {/* <!-- //contact address -->
                                 <!-- contact form --> */}
                                 <div className="contacts12-main col-lg-8 mt-lg-0 mt-5">
-                                
-                                    <form action="https://sendmail.w3layouts.com/submitForm" method="post" className="main-input">
+                                    <div className="elfsight-app-07b19e41-d0d0-4101-8a10-2fb0634c9391"></div>
+                                    {/* <form action="https://sendmail.w3layouts.com/submitForm" method="post" className="main-input">
                                         <div className="top-inputs d-grid">
                                             <input type="text" placeholder="Name" name="w3lName" id="w3lName" aria-required />
                                             <input type="email" name="email" placeholder="Email" id="w3lSender" aria-required />
@@ -110,12 +126,12 @@ function Contact() {
                                                     <option value="Oman">Oman</option>
                                                     <option value="Georgia">Georgia</option>
                                                     <option value="Others">Others</option>
-                                            </select> */}
+                                            </select> 
                                         </div>
 
            
                                         
-                                        {/* <select name="Course" placeholder="Course" id="Course"  className="form-control-lg  d-grid">
+                                         <select name="Course" placeholder="Course" id="Course"  className="form-control-lg  d-grid">
                                                 <option value="Course">Course</option>
                                                 <option value="AWS">AWS</option>
                                                 <option value="AZURE">AZURE</option>
@@ -124,13 +140,13 @@ function Contact() {
                                                 <option value="Language">Language</option>
                                                 <option value="Database">Database</option>
                                                 <option value="Others">Others</option>
-                                        </select> */}
+                                        </select>
                                         <input type="text" placeholder="Phone Number" name="w3lName" id="w3lName" aria-required />
                                         <textarea placeholder="Message" name="w3lMessage" id="w3lMessage" aria-required></textarea>
                                         <div className="text-right">
                                             <button type="submit" className="btn btn-theme2">Submit Now</button>
                                         </div>
-                                    </form>
+                                    </form> */}
                                 </div>
                                 {/* <!-- //contact form --> */}
                             </div>

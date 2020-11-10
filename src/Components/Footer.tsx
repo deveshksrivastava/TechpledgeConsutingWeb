@@ -29,7 +29,7 @@ function Footer() {
                             <div className="footer-list-29 footer-2">
                                 <ul>
                                     <h6 className="footer-title-29">Featured Links</h6>
-                                    <li><a href="/Carrer">Career</a></li>
+                                    <li><a href="/Career">Careers</a></li>
                                     <li><a href={`assets/images/speciality.pdf`}>Speciality </a></li>
                                     <li><Link to="/PrivacyPolicy" >Privacy-Policy</Link></li>
                                     <li><Link to="/PricingPolicy" >Refund-Policy</Link></li>

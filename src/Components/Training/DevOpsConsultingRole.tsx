@@ -30,12 +30,8 @@ function DevOpsConsultingRole() {
                                   <li><span className="fa fa-check"></span>1 on 1 Industry Mentorship</li>
                               </ul> */}
                           </div>
-                          <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
-                              <img src="assets/images/topics/DevOpscertification.jpg" className="img-fluid" alt="" />
                               <div className="cwp4-image col-lg-6 pl-lg-5 mt-lg-0 mt-5">
                               <img src="assets/images/topics/DevOpscertification.jpg" className="img-fluid" alt="" />
-
-                          </div>
                           </div>
                       </div>
                   </div>

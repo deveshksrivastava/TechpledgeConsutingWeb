@@ -14,7 +14,7 @@ import CardCertificate from './Components/CardCertificate';
 import PrivacyPolicy from './Components/PrivacyPolicy';
 import PricingPolicy from './Components/PricingPolicy';
 import TermsCondition from './Components/TermsCondition';
-import Carrer from './Components/Carrer';
+import Career from './Components/Career';
 import Placements from './Components/Placements';
 import AWSCertificationsCard from './Components/Training/AWSCertificationsCard';
 import CloudArchitectRole from './Components/Training/CloudArchitectRole';
@@ -69,7 +69,7 @@ function App() {
                   <Route path="/PrivacyPolicy" exact component={PrivacyPolicy} />
                   <Route path="/PricingPolicy" exact component={PricingPolicy} />
                   <Route path="/TermsCondition" exact component={TermsCondition} />
-                  <Route path="/Carrer" exact component={Carrer} />
+                  <Route path="/Career" exact component={Career} />
                   <Route path="/Placements" exact component={Placements} />
                   <Route path="/AWSCertificationsCard" exact component={AWSCertificationsCard} />
                   <Route path="/CloudArchitectRole" exact component={CloudArchitectRole} />

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Carrer() {
+function Career() {
     return (
         <div>
      <section className="w3l-features-1">
@@ -27,4 +27,4 @@ function Carrer() {
     )
 }
 
-export default Carrer
+export default Career

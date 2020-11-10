@@ -33,7 +33,8 @@ function TopMenu() {
                                         </li>
                                 </div>
                                 <div className="social-top col-md-2 col-3">
-                                    <a href="contact.html" className="btn btn-secondary btn-theme4">Apply Now</a>
+                                    {/* <a href="contact.html" className="btn btn-secondary btn-theme4"></a> */}
+                                    <Link to="/Career" className="btn btn-secondary btn-theme4" >Careers</Link>
                                 </div>
                             </header>
                      </div>
