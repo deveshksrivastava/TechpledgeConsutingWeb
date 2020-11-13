@@ -55,12 +55,13 @@ function Slider() {
                             </div> */}
                             <div className="item">
                                 <li>
+                 
                                 <div className="slider-info banner-view banner-top3 bg bg2" data-selector=".bg.bg2">
                                     <div className="banner-info">
                                     <div className="container">
                                         <div className="banner-info-bg mx-auto text-center">
-                                        <h5>Explore The World Of Technology</h5>
-                                        {/* <a className="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a> */}
+                                        <h4>Explore The World Of Technology</h4>
+                                        <b>Training and App Development</b><br/>
                                         <Link className="btn btn-secondary btn-theme2 mt-md-5 mt-4" to="/" >Read More</Link>
                                         </div>
                                     </div>

@@ -82,7 +82,8 @@ function Services() {
                                 <div className="icon-info">
                                     <h5>Mobile App & Website Dev</h5>
                                     <p>
-                                    Our globally certified consulting experts will  profile, map, engineer a design, and build a prototype which will be market tested. We help in overhauling your operational process and have a positive impact on your business’s efficiency.
+                                    Web and Mobile technology gives businesses the opportunity to stay connected to customers almost all the time. We will help you in generating best online environments. We are Master in Creating applications that engage users.
+
                                     </p>
                                 </div>
                         </div>	 

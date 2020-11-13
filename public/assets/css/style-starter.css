@@ -13958,6 +13958,13 @@ h4.sub-title {
 	color: var(--text-color);
 }
 
+.w3l-main-slider .banner-info-bg h4 {
+	font-size: 60px;
+	line-height: 68px;
+	font-weight: 600;
+	color: var(--white-color);
+}
+
 .w3l-main-slider .banner-info-bg h6 {
 	font-size: 36px;
 	margin-bottom: 14px;
@@ -13975,6 +13982,12 @@ h4.sub-title {
 	font-size: 18px;
 	line-height: 26px;
 	color: var(--white-color);
+}
+
+.w3l-main-slider .banner-info-bg b {
+	font-size: 18px;
+	line-height: 26px;
+	color: orangered;
 }
 
 .w3l-main-slider .banner-info-bg ul {
@@ -16880,16 +16893,13 @@ button.owl-next {
 	color: #ffffff;
 	font-size: 15px;
 	font-weight: bold; */
-	position:relative;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	text-align: right;
 }
 
-
-
 .buttonPayHere {
-
 	/* background-color: #ff0400;
 	color: #ffffff;
 	font-size: 15px;
