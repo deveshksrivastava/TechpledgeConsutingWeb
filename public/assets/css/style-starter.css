@@ -14781,6 +14781,10 @@ button.owl-next {
 	}
 }
 
+
+
+
+
 /* .w3l-feature-3 {
 	/*-- //Reset-Code --*/
 /*-- //Reset-Code --*/
@@ -14788,7 +14792,10 @@ button.owl-next {
 /*--//responsive--
 } */
 .w3l-feature-3 .grid.top-bottom {
-	/* margin-top: -100px; */
+	/* margin-top: -100px;
+	z-index: 10;
+	position: relative; */
+	margin-top: -100px;
 	z-index: 10;
 	position: relative;
 }
@@ -16905,6 +16912,7 @@ button.owl-next {
 	font-size: 15px;
 	font-weight: bold;
 	width: 100%; */
+	height: 0px;
 }
 
 .divEnrollnow {
@@ -16931,3 +16939,65 @@ button.owl-next {
 	width: 5%;
 	height: 10%;
 }
+
+
+
+/* -----slider */
+.slide-container {
+	width: 70%;
+	margin: auto; }
+  
+  h3 {
+	text-align: center; }
+  
+  .each-slide > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	height: 300px;
+  }
+  
+  .each-slide span {
+	padding: 20px;
+	font-size: 20px;
+	background: #efefef;
+	text-align: center;
+  }
+  
+  .each-fade {
+	display: flex;
+  }
+  
+  .each-fade .image-container {
+	width: 75%;
+	overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+	width: 100%;
+  }
+  
+  .each-fade h2 {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	background: #adceed;
+  }
+
+  .each-slide > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	height: 350px;
+  }
+  
+  .each-slide span {
+	padding: 20px;
+	font-size: 20px;
+	background: #efefef;
+	text-align: center;
+  }

@@ -20,6 +20,7 @@
     "jsx": "react"
   },
   "include": [
-    "src", "help.js"
-  ]
+    "src",
+    "help.js"
+  ],
 }

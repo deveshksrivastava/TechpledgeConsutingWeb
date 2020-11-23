@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Slider from './Slider';
 import Feature from './Feature';
 import Form12 from './Form12';
@@ -7,21 +7,32 @@ import Testimonials from './Testimonials';
 import News from './News';
 import AboutMain from './AboutMain';
 import Course from './Course';
-function Home() {
+const Home: React.SFC = props => {
+
+    useEffect(() => {
+        // refreshPage()
+        // alert("I m locading")
+    }, [])
+
+
+    function refreshPage() {
+        window.location.reload(false);
+    }
+
     return (
         <div>
-                <Slider />
-                <Feature />  
-                <AboutMain />
-                {/* Apply for scolership */}
-                <Course /> 
-                {/* Find a course */}
-                <Form12 />
-                {/* 60 Professionla Instructor */}
-                <Specifications />
-                {/*  */}
-                <Testimonials />
-                <News/>
+            <Slider name="slider" />
+            <Feature />
+            <AboutMain />
+            {/* Apply for scolership */}
+            <Course />
+            {/* Find a course */}
+            <Form12 />
+            {/* 60 Professionla Instructor */}
+            <Specifications />
+            {/*  */}
+            <Testimonials />
+            <News />
         </div>
     )
 }
