@@ -16,8 +16,9 @@
     "@types/react-geocode": "^0.2.0",
     "@types/react-router-dom": "^5.1.5",
     "emailjs-com": "^2.6.3",
+    "env-cmd": "^10.1.0",
     "google-maps-react": "^2.0.6",
-    "node-sass": "^4.14.1",
+    "node-sass": "9.0.0",
     "react": "^16.13.1",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.1",
@@ -33,10 +34,11 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "_env-cmd": "./node_modules/.bin/env-cmd",
+    "start": "env-cmd -f ./config/.env.development react-scripts  --openssl-legacy-provider start REACT_APP_API_URL=localhost --watch craco start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "env-cmd -f ./config/.env.uat react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
