@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/deveshprojectwork/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/deveshprojectwork/static/js/main.8308218c.chunk.js",
+    "main.js.map": "/deveshprojectwork/static/js/main.8308218c.chunk.js.map",
+    "runtime-main.js": "/deveshprojectwork/static/js/runtime-main.1a10ceee.js",
+    "runtime-main.js.map": "/deveshprojectwork/static/js/runtime-main.1a10ceee.js.map",
+    "static/css/2.fb346933.chunk.css": "/deveshprojectwork/static/css/2.fb346933.chunk.css",
+    "static/js/2.1997bc18.chunk.js": "/deveshprojectwork/static/js/2.1997bc18.chunk.js",
+    "static/js/2.1997bc18.chunk.js.map": "/deveshprojectwork/static/js/2.1997bc18.chunk.js.map",
+    "index.html": "/deveshprojectwork/index.html",
+    "precache-manifest.5715e9774079ad23ee8187b0c3a6f7dd.js": "/deveshprojectwork/precache-manifest.5715e9774079ad23ee8187b0c3a6f7dd.js",
+    "service-worker.js": "/deveshprojectwork/service-worker.js",
+    "static/css/2.fb346933.chunk.css.map": "/deveshprojectwork/static/css/2.fb346933.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/deveshprojectwork/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.1997bc18.chunk.js.LICENSE.txt": "/deveshprojectwork/static/js/2.1997bc18.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a10ceee.js",
+    "static/css/2.fb346933.chunk.css",
+    "static/js/2.1997bc18.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.8308218c.chunk.js"
+  ]
+}
