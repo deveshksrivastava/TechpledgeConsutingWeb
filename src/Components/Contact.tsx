@@ -42,7 +42,7 @@ function Contact() {
                       </div>
                       <p>
                         <img
-                          src="./assets/images/indiaflag.png"
+                          src="/assets/images/indiaflag.png"
                           height="60px"
                           width="80px"
                           className="img-responsive"
