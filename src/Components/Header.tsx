@@ -10,7 +10,7 @@ function Header() {
             <a className="navbar-brand" href="/">
               <span className="fa fa-pencil-square-o "></span>
               <img
-                src="./deveshprojectwork/assets/images/Logo.jpg"
+                src="deveshprojectwork/assets/images/Logo.jpg"
                 height="50px"
                 width="150px"
               />
