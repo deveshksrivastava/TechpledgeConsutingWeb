@@ -42,7 +42,7 @@ function Contact() {
                       </div>
                       <p>
                         <img
-                          src="/assets/images/indiaflag.png"
+                          src="/deveshprojectwork/assets/images/indiaflag.png"
                           height="60px"
                           width="80px"
                           className="img-responsive"
@@ -66,7 +66,7 @@ function Contact() {
                       </div>
                       <p>
                         <img
-                          src="assets/images/american-flag.png"
+                          src="deveshprojectwork/assets/images/american-flag.png"
                           height="60px"
                           width="80px"
                           className="img-responsive"
@@ -202,7 +202,7 @@ function Contact() {
                   <div className="icon-info">
                     <h5>
                       <img
-                        src="assets/images/englandflag.png"
+                        src="deveshprojectwork/assets/images/englandflag.png"
                         height="60px"
                         width="80px"
                         className="img-responsive"
@@ -220,7 +220,7 @@ function Contact() {
                   <div className="icon-info">
                     <h5>
                       <img
-                        src="assets/images/canadaflag.png"
+                        src="deveshprojectwork/assets/images/canadaflag.png"
                         height="60px"
                         width="80px"
                         className="img-responsive"
@@ -238,7 +238,7 @@ function Contact() {
                   <div className="icon-info">
                     <h5>
                       <img
-                        src="assets/images/american-flag.png"
+                        src="deveshprojectwork/assets/images/american-flag.png"
                         height="60px"
                         width="80px"
                         className="img-responsive"
