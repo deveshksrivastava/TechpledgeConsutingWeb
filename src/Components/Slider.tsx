@@ -1,62 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
-// https://github.com/kimcoder/react-simple-image-slider
-
-// const Slider: React.SFC = props => {
-interface MyProps {
-  name: 'slider';
-}
-class Slider extends React.Component<MyProps> {
-  constructor(props: MyProps) {
-    super(props);
-    this.state = {
-      useGPURender: true,
-      showNavs: true,
-      showBullets: true,
-      navStyle: 1,
-      slideDuration: 0.5,
-      bgColor: '#000000',
-      slideIndexText: '',
-    };
-  }
-
-  componentDidMount() {
-    console.log('[App componentDidMount]');
-  }
-
-  nClick = (idx: any, event: any) => {
-    console.log(`[App onClick] ${idx} ${event.target}`);
-  };
-
-  onClickNav = (toRight: any) => {
-    console.log(`[App onClickNav] ${toRight}`);
-  };
-
-  onClickBullets = (idx: any) => {
-    console.log(`[App onClickBullets] ${idx}`);
-  };
-
-  onStartSlide = (idx: any, length: number) => {
-    console.log(`[App onStartSlide] ${idx}/${length}`);
-    this.setState({ slideIndexText: `${idx} / ${length}` });
-  };
-
-  onCompleteSlide = (idx: any, length: number) => {
-    console.log(`[App onCompleteSlide] ${idx}/${length}`);
-    this.setState({ slideIndexText: `${idx} / ${length}` });
-  };
-
-  onClick = (idx: any, event: any) => {
-    console.log(`[App onClick] ${idx} ${event.target}`);
-  };
-
-  render() {
-    const images = [
-      { url: '../deveshprojectwork/assets/images/2.jpg' },
-      { url: '../deveshprojectwork/assets/images/3.jpg' },
-      { url: '../deveshprojectwork/assets/images/4.jpg' },
-    ];
+function Slider() {
     return (
 
 
@@ -170,30 +115,4 @@ class Slider extends React.Component<MyProps> {
     )
 }
 
-export default Slider;
-
-// https://github.com/SinghDigamber/react-carousel-tutorial/blob/master/src/components/carousel.component.js
-// Within TypeScript, React.Component is a generic type (aka
-//     React.Component<PropType, StateType>)
-
-//     source
-
-//     Since you are defining state within that component, you will need to create an interface for your state for typechecking.
-
-//     interface MyState {
-//       profiles: IProfile[];
-//     }
-//     After creating that, you can supply that to your React.Component
-
-//     class App extends React.Component<MyProps, MyState>  {
-
-//       constructor(props: MyProps) {
-//         super(props);
-//         this.state = { profiles: props.profiles };
-//       }
-
-//       public render() {
-//         return (<div>//ERROR HERE
-//           {this.state.profiles.map((profile: IProfile) => <Card {...profile} />)}
-//         </div>);
-//       }
+export default Slider

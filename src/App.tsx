@@ -14,7 +14,7 @@ import CardCertificate from './Components/CardCertificate';
 import PrivacyPolicy from './Components/PrivacyPolicy';
 import PricingPolicy from './Components/PricingPolicy';
 import TermsCondition from './Components/TermsCondition';
-import Career from './Components/Career';
+import Carrer from './Components/Carrer';
 import Placements from './Components/Placements';
 import AWSCertificationsCard from './Components/Training/AWSCertificationsCard';
 import CloudArchitectRole from './Components/Training/CloudArchitectRole';
