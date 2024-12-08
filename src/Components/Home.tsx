@@ -10,18 +10,28 @@ import Course from './Course';
 function Home() {
     return (
         <div>
-                <Slider />
-                <Feature />  
-                <AboutMain />
-                {/* Apply for scolership */}
-                <Course /> 
-                {/* Find a course */}
-                <Form12 />
-                {/* 60 Professionla Instructor */}
-                <Specifications />
-                {/*  */}
-                <Testimonials />
-                <News/>
+            <Slider />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            {/* <Feature />   */}
+            <AboutMain />
+            {/* Apply for scolership */}
+            <Course />
+            {/* Find a course */}
+            <Form12 />
+            {/* 60 Professionla Instructor */}
+            <Specifications />
+            {/*  */}
+            <Testimonials />
+            <News />
         </div>
     )
 }
