@@ -21,8 +21,18 @@ const Home: React.SFC = props => {
 
     return (
         <div>
-            <Slider name="slider" />
-            <Feature />
+            <Slider />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            {/* <Feature />   */}
             <AboutMain />
             {/* Apply for scolership */}
             <Course />

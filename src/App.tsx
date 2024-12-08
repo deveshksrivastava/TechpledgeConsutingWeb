@@ -60,7 +60,7 @@ function App() {
         <section>
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/about" component={About} />
+            <Route path="/about" exact component={About} />
             <Route path="/CardCertificate" exact component={CardCertificate} />
             <Route path="/training" exact component={Training} />
             <Route path="/services" exact component={Services} />
@@ -69,7 +69,7 @@ function App() {
             <Route path="/PrivacyPolicy" exact component={PrivacyPolicy} />
             <Route path="/PricingPolicy" exact component={PricingPolicy} />
             <Route path="/TermsCondition" exact component={TermsCondition} />
-            <Route path="/Career" exact component={Career} />
+            <Route path="/Carrer" exact component={Carrer} />
             <Route path="/Placements" exact component={Placements} />
             <Route path="/AWSCertificationsCard" exact component={AWSCertificationsCard} />
             <Route path="/CloudArchitectRole" exact component={CloudArchitectRole} />
@@ -80,14 +80,11 @@ function App() {
             <Route path="/MicrosoftCertificationsCard" exact component={MicrosoftCertificationsCard} />
             <Route path="/ServerAdministratorRole" exact component={ServerAdministratorRole} />
             <Route path="/GoogleCertificationsCard" exact component={GoogleCertificationsCard} />
-
             <Route path="/JobAssistance" exact component={JobAssistance} />
             <Route path="/PermanentPositionPlacements" exact component={PermanentPositionPlacements} />
             <Route path="/ContractPositionPlacements" exact component={ContractPositionPlacements} />
             <Route path="/OffshoreHiringPlacements" exact component={OffshoreHiringPlacements} />
             <Route path="/SoftwareProgramerRole" exact component={SoftwareProgramerRole} />
-
-
             <Route exact component={NotFound} />
           </Switch>
         </section>

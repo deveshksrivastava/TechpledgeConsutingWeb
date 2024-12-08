@@ -1,25 +1,15 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 function Feature() {
-    return (
-        <div>
-			{/* <section class="w3l-feature-3" id="features">
-				<div class="grid top-bottom mb-lg-5 pb-lg-5">
-					<div class="container">
-						
-						<div class="middle-section grid-column text-center">
-						
-						</div>
-					</div>
-				</div>
-			</section> */}
-            
-			<section className="w3l-feature-3" id="features">
-				<div className="grid top-bottom mb-lg-5 pb-lg-5">
+	return (
+		<div  >
+			<section className="w3l-feature-3" id="features" >
+				<div className="grid top-bottom mb-lg-5 pb-lg-5" style={{ backgroundColor: "red", zIndex: -1 }}>
 					<div className="container">
-						<div className="middle-section grid-column text-center">
+
+						<div className="middle-section grid-column text-center" style={{ zIndex: 4, position: "relative" }}>
 							<div className="three-grids-columns">
 								<span className="fa fa-laptop"></span>
 								<h4> Role Based Training</h4>
@@ -54,8 +44,8 @@ function Feature() {
 					</div>
 				</div>
 			</section>
-        </div>
-    )
+		</div >
+	)
 }
 
 export default Feature

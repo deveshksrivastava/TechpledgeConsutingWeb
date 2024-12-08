@@ -36,12 +36,9 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "_env-cmd": "./node_modules/.bin/env-cmd",
-    "start": "env-cmd -f ./config/.env.development react-scripts  --openssl-legacy-provider start REACT_APP_API_URL=localhost --watch craco start",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "env-cmd -f ./config/.env.uat react-scripts test",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
